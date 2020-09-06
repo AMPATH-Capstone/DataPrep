@@ -5,6 +5,6 @@ When workstream analyses utilize the data from AMPATH, they should read the clea
 
 ```ruby
 library(readr)  # This library contains the read_csv function. Do not use the standard R function read.csv()
-raw_data <- "https://raw.github.com//AMPATH-Capstone/DataPrep/Final-Data/artcoops.csv"
+raw_data <- "https://raw.github.com//AMPATH-Capstone/DataPrep/Final-Data/artcoops_final.csv"
 ampath_data <- read_csv(raw_data)
 ```
