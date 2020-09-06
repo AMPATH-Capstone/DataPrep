@@ -1,0 +1,24 @@
+---
+title: "Data Cleanup Document Template"
+output: html_document
+---
+### Read in the readr and import the dataset 
+```{r}
+#install.packages("readr")
+library(readr)  # This library contains the read_csv function. Do not use the standard R function read.csv()
+
+raw_data <- "https://raw.github.com//AMPATH-Capstone/DataPrep/Final-Data/artcoops.csv" 
+
+ampath_data <- read_csv(raw_data)
+```
+
+### View ampath_data
+```{r}
+head(ampath_data)
+```
+
+### Begin cleanup process 
+```{r}
+
+```
+
