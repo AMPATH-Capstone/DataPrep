@@ -4,7 +4,8 @@ This repository will be utilized to store the original data provided by AMPATH, 
 When workstream analyses utilize the data from AMPATH, they should read the cleaned file directly into their R file from this repository. An example of how to do that is shown below:
 
 ```ruby
-library(readr)  # This library contains the read_csv function. Do not use the standard R function read.csv()
+install.packages("readr")  # Install this package if necessary. This contains the read_csv function. Do not use the standard R function read.csv()
+library(readr)
 raw_data <- "https://raw.github.com//AMPATH-Capstone/DataPrep/Final-Data/artcoops_final.csv"
 ampath_data <- read_csv(raw_data)
 ```
