@@ -1,0 +1,15 @@
+# Cleanup Original Data
+
+```{r}
+#install.packages("readr")
+library(readr)  # This library contains the read_csv function. Do not use the standard R function read.csv()
+
+raw_data <- "https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/artcoops.csv" 
+
+ampath_data <- read_csv(raw_data)
+```
+
+# Begin Cleanup Process
+```{r}
+
+```
