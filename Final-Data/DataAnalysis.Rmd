@@ -17,7 +17,7 @@ ampath_data <- read_csv(raw_data)
 head(ampath_data)
 ```
 
-### Begin cleanup process 
+### Begin data analysis
 ```{r}
 
 ```
