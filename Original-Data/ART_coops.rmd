@@ -1,0 +1,44 @@
+# ART Co-op Initial Findings / Clean-u-
+
+```{r}
+#install.packages("readr")
+library(readr)
+library(ggplot2)
+library(ggpol)
+library(plyr)
+raw_data <- "https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/artcoops.csv" 
+ampath_data <- read_csv(raw_data)
+ampath_data[,7] <- ifelse(ampath_data[,7] == "Male", 1, ifelse(ampath_data[,7] == "Female", 0, NA))
+ampath_data[,13] <- ifelse(ampath_data[,13] == "No School", 0, 
+                           ifelse(ampath_data[,13] == "P1-P8", 1,
+                                  ifelse(ampath_data[,13] == "S1-S4", 2,
+                                          ifelse(ampath_data[,13] == "Tertiary/Vocational", 3,
+                                                  ifelse(ampath_data[,13] == "University", 4, 
+                                                                 ifelse(ampath_data[,13] == "Post-graduate", 5, 
+                                                                 NA))))))
+head(ampath_data)
+
+```
+```{r}
+total <- nrow(ampath_data)
+
+study_id_count <- ampath_data %>%
+  summarise(n_distinct(study_id))
+
+total-(study_id_count * 2)
+
+```
+The 43 individuals 
+
+```{r}
+dropped_out <- ampath_data[!(duplicated(ampath_data$study_id) | duplicated(ampath_data$study_id, fromLast = TRUE)), ] 
+dropped_out
+```
+
+
+```{r}
+sp <- barplot(table(ampath_data$highest_school_level_hsm1, ampath_data$sex_hsm1),legend=c("P1-P8","S1-S4","Tertiary/Vocational","University","Post-Graduate"),main="Highest Level of Educational Attainment for Household Member 1",xlab = "Sex (0 = Male, 1 = Female)",ylab="Count", ylim=c(0,200))
+```
+
+
+
