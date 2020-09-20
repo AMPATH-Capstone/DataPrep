@@ -1,0 +1,34 @@
+﻿Date,CHW_Name,Timeframe,Patients_Seen,Transportation_Spend,Communications_Spend
+42794,JCK,Last month,28,,700
+42794,JCK,2 Months ago,0,300,1000
+42794,JCK,3 Months ago,0,,1500
+42794,MM,Last month,28,,1500
+42794,MM,2 Months ago,0,200,1000
+42794,MM,3 Months ago,0,,3000
+42863,MM,Last month,28,500,300
+42863,MM,2 Months ago,0,0,200
+42863,MM,3 Months ago,0,200,1100
+42863,ENN,Last month,0,0,0
+42863,ENN,2 Months ago,13,150,50
+42863,ENN,3 Months ago,13,150,220
+42863,JCK,Last month,30,200,500
+42863,JCK,2 Months ago,28,350,1000
+42863,JCK,3 Months ago,14,100,500
+42909,ENN,Last month,39,600,1100
+42909,ENN,2 Months ago,39,600,1100
+42909,ENN,3 Months ago,39,600,1100
+42914,MM,Last month,12,150,800
+42914,MM,2 Months ago,,,1500
+42914,MM,3 Months ago,,,
+42933,MM,Last month,15,250,1000
+42933,MM,2 Months ago,,,500
+42933,MM,3 Months ago,,,1000
+42936,MM,Last month,13,100,500
+42936,MM,2 Months ago,,,
+42936,MM,3 Months ago,,,1000
+42942,JCK,Last month,26,300,1000
+42942,JCK,2 Months ago,15,100,200
+42942,JCK,3 Months ago,15,100,250
+43087,ENN,Last month,47,650,1000
+43087,ENN,2 Months ago,47,650,1000
+43087,ENN,3 Months ago,47,1400,1000
