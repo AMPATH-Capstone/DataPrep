@@ -1,5 +1,5 @@
 ---
-title: "AMPATH Data Prep"
+title: "CHW Details Data Prep"
 author: "William Nicholas"
 date: "September 20, 2020"
 output: html_document
@@ -7,7 +7,9 @@ output: html_document
 
 ```{r}
 library(readr)
+library(DescTools)
 library(ggplot2)
+library(lubridate)
 chw_p <- read_csv("https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/Time-Log/chw_p.csv")
 chw_t <- read_csv("https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/Time-Log/chw_t.csv")
 co_chw <- read_csv("https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/Time-Log/co_chw.csv")
@@ -18,21 +20,35 @@ co_p <- read_csv("https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/mas
 chw_p$TSPP <- chw_p$Transportation_Spend/chw_p$Patients_Seen
 chw_p$CSPP <- chw_p$Communications_Spend/chw_p$Patients_Seen
 chw_p$SPP <- (chw_p$Transportation_Spend+chw_p$Communications_Spend)/chw_p$Patients_Seen
+chw_p$Date <- as_date(chw_p$Date)
 head(chw_p)
 ```
 ```{r}
+chw_t$Date <- as.Date(parse_date_time(chw_t$Date, "mdy"))
 head(chw_t)
 ```
 
 ```{r}
+co_chw$Date <- as.Date(parse_date_time(co_chw$Date, "mdy"))
+Mode(co_chw$Subject)
 head(co_chw)
 ```
 
 ```{r}
+cochw <-ggplot(data=co_chw, aes(x=Date, y=Meeting_Length_Mins)) +
+  geom_bar(stat="identity")
+cochw
+```
+
+```{r}
+co_p$Date <- as.Date(parse_date_time(co_p$Date, "mdy"))
+Mode(co_p$Subject)
 head(co_p)
 ```
 
 ```{r}
-
+cop<-ggplot(data=co_p, aes(x=Date, y=Meeting_Length_Mins)) +
+  geom_bar(stat="identity")
+cop
 ```
 
