@@ -7,14 +7,31 @@ output: html_document
 
 ```{r}
 library(readr)
-library(dplyr)
 library(ggplot2)
-ampath <- read_csv("https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/artcoops.csv")
+chw_p <- read_csv("https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/Time-Log/chw_p.csv")
+chw_t <- read_csv("https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/Time-Log/chw_t.csv")
+co_chw <- read_csv("https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/Time-Log/co_chw.csv")
+co_p <- read_csv("https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/Time-Log/co_p.csv")
 ```
 
 ```{r}
-head(ampath)
+chw_p$TSPP <- chw_p$Transportation_Spend/chw_p$Patients_Seen
+chw_p$CSPP <- chw_p$Communications_Spend/chw_p$Patients_Seen
+chw_p$SPP <- (chw_p$Transportation_Spend+chw_p$Communications_Spend)/chw_p$Patients_Seen
+head(chw_p)
 ```
+```{r}
+head(chw_t)
+```
+
+```{r}
+head(co_chw)
+```
+
+```{r}
+head(co_p)
+```
+
 ```{r}
 
 ```
