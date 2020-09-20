@@ -1,0 +1,21 @@
+---
+title: "AMPATH Data Prep"
+author: "William Nicholas"
+date: "September 20, 2020"
+output: html_document
+---
+
+```{r}
+library(readr)
+library(dplyr)
+library(ggplot2)
+ampath <- read_csv("https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/artcoops.csv")
+```
+
+```{r}
+head(ampath)
+```
+```{r}
+
+```
+
