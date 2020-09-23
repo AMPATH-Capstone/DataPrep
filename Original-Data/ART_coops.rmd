@@ -1,7 +1,6 @@
-# ART Co-op Initial Findings / Clean-u-
+# ART Co-op Initial Findings / Clean-up
 
 ```{r}
-#install.packages("readr")
 library(readr)
 library(ggplot2)
 library(ggpol)
@@ -17,6 +16,13 @@ ampath_data[,13] <- ifelse(ampath_data[,13] == "No School", 0,
                                                                  ifelse(ampath_data[,13] == "Post-graduate", 5, 
                                                                  NA))))))
 head(ampath_data)
+
+
+m <- count(ampath_data$sex_hsm1 == 1)
+f <- count(ampath_data$sex_hsm1 == 0)
+
+f
+
 
 ```
 ```{r}
