@@ -17,13 +17,6 @@ ampath_data[,13] <- ifelse(ampath_data[,13] == "No School", 0,
                                                                  NA))))))
 head(ampath_data)
 
-
-m <- count(ampath_data$sex_hsm1 == 1)
-f <- count(ampath_data$sex_hsm1 == 0)
-
-f
-
-
 ```
 ```{r}
 total <- nrow(ampath_data)
@@ -34,7 +27,7 @@ study_id_count <- ampath_data %>%
 total-(study_id_count * 2)
 
 ```
-The 43 individuals 
+The 43 individuals dropped out of the study before the final interview. 
 
 ```{r}
 dropped_out <- ampath_data[!(duplicated(ampath_data$study_id) | duplicated(ampath_data$study_id, fromLast = TRUE)), ] 
