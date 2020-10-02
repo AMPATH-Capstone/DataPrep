@@ -1,0 +1,114 @@
+# ART Co-op Initial Findings / Clean-up
+
+```{r}
+library(readr)
+library(ggplot2)
+library(plyr)
+library(dplyr)
+
+raw_data <- "https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/ARTcoops_SocialEconomic_01102020.csv" 
+ampath_data <- read_csv(raw_data)
+ampath_data$sex_hsm1_code <- ifelse(ampath_data[,8] == "Male", 1, ifelse(ampath_data[,8] == "Female", 0, NA))
+ampath_data$school_hsm1_code <- ifelse(ampath_data[,14] == "No School", 0, 
+                           ifelse(ampath_data[,14] == "P1-P8", 1,
+                                  ifelse(ampath_data[,14] == "S1-S4", 2,
+                                          ifelse(ampath_data[,14] == "Tertiary/Vocational", 3,
+                                                  ifelse(ampath_data[,14] == "University", 4, 
+                                                                 ifelse(ampath_data[,14] == "Post-graduate", 5, 
+                                                                 NA))))))
+head(ampath_data)
+```
+
+New subset with only individuals that left the study
+```{r}
+dropped_out <- ampath_data[!(duplicated(ampath_data$study_id) | duplicated(ampath_data$study_id, fromLast = TRUE)), ] 
+head(dropped_out)
+```
+
+New data set without individuals who left the study
+```{r}
+completed_study <- anti_join(ampath_data, dropped_out)
+head(completed_study)
+```
+
+Dropped out time to clinic (one-way in hours)
+```{r}
+timetoclinic_dropouts <- mean(dropped_out$time_to_hc_hr, na.rm=TRUE)
+timetoclinic_dropouts
+```
+
+Completed study time to clinic (one-way in hours)
+```{r}
+timetoclinic_completed <- mean(completed_study$time_to_hc_hr, na.rm=TRUE)
+timetoclinic_completed
+```
+
+```{r}
+t.test(dropped_out$number_of_hsm, completed_study$number_of_hsm)
+```
+
+```{r}
+d1 <- density(completed_study$number_of_hsm)
+plot(d1, main="Number of Household Members - Completed Study")
+polygon(d1, col="blue", border="black")
+
+d2 <- density(dropped_out$number_of_hsm)
+plot(d2, main="Number of Household Members - Dropped Out")
+polygon(d2, col="blue", border="black")
+```
+
+```{r}
+t.test(dropped_out$ageyrs_hsm1, completed_study$ageyrs_hsm1)
+```
+
+```{r}
+d3 <- density(completed_study$ageyrs_hsm1)
+plot(d3, main="Age of Subject - Completed Study")
+polygon(d3, col="blue", border="black")
+
+d4 <- density(dropped_out$ageyrs_hsm1)
+plot(d4, main="Age of Subject - Dropped Out")
+polygon(d4, col="blue", border="black")
+```
+
+```{r}
+t.test(dropped_out$income_earned_hsm1, completed_study$income_earned_hsm1)
+```
+
+```{r}
+d5 <- density(completed_study$income_earned_hsm1)
+plot(d5, main="Income of Subject - Completed Study")
+polygon(d5, col="blue", border="black")
+
+d6 <- density(dropped_out$income_earned_hsm1)
+plot(d6, main="Income of Subject - Dropped Out")
+polygon(d6, col="blue", border="black")
+```
+
+```{r}
+t.test(dropped_out$money_received_hsm1, completed_study$money_received_hsm1)
+```
+
+```{r}
+d7 <- density(completed_study$money_received_hsm1, na.rm=T)
+plot(d7, main="Money Received by Subject - Completed Study")
+polygon(d7, col="blue", border="black")
+
+d8 <- density(dropped_out$money_received_hsm1, na.rm=T)
+plot(d8, main="Money Received by Subject - Dropped Out")
+polygon(d8, col="blue", border="black")
+```
+
+```{r}
+t.test(dropped_out$landvalue, completed_study$landvalue)
+```
+
+```{r}
+d9 <- density(completed_study$landvalue, na.rm=T)
+plot(d9, main="Land Value of Subject - Completed Study")
+polygon(d9, col="blue", border="black")
+
+d10 <- density(dropped_out$landvalue, na.rm=T)
+plot(d10, main="Land Value of Subject - Dropped Out")
+polygon(d10, col="blue", border="black")
+```
