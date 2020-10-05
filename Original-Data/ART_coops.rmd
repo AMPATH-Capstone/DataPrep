@@ -6,6 +6,7 @@ library(ggplot2)
 library(ggpol)
 library(plyr)
 library(dplyr)
+library(arsenal)
 raw_data <- "https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/ARTcoops_SocialEconomic_01102020.csv" 
 ampath_data <- read_csv(raw_data)
 ampath_data[,7] <- ifelse(ampath_data[,7] == "Male", 1, ifelse(ampath_data[,7] == "Female", 0, NA))
@@ -35,24 +36,33 @@ total-(study_id_count * 2)
 New subset with only individuals that left the study
 ```{r}
 dropped_out <- ampath_data[!(duplicated(ampath_data$study_id) | duplicated(ampath_data$study_id, fromLast = TRUE)), ] 
+dropped_out <- data.frame(dropped_out)
 dropped_out
 ```
 
 New data set without individuals who left the study
 ```{r}
 completed_study <- anti_join(ampath_data, dropped_out)
+completed_study <- data.frame(completed_study)
 completed_study
 ```
 
-Dropped out time to clinic (one-way in hours)
+Dropped out time to clinic (one-way in hours) & cost to travel to clinic
 ```{r}
 timetoclinic_dropouts <- mean(dropped_out$time_to_hc_hr, na.rm=TRUE)
 timetoclinic_dropouts
+
+costtoclinic_dropouts <-  mean(dropped_out$cost_of_travel_to_hc, na.rm=TRUE)
+costtoclinic_dropouts 
+
 ```
-Completed study time to clinic (one-way in hours)
+Completed study time to clinic (one-way in hours) & cost to travel to clinic
 ```{r}
 timetoclinic_completed <- mean(completed_study$time_to_hc_hr, na.rm=TRUE)
 timetoclinic_completed
+
+costtoclinic_completed <-  mean(completed_study$cost_of_travel_to_hc, na.rm=TRUE)
+costtoclinic_completed
 ```
 Count of transportation for dropped out
 ```{r}
@@ -80,6 +90,7 @@ dropped_out_transportation <- data.frame( "Mode" = c(
 )
 
 dropped_out_transportation
+
 ```
 
 Count of transportation for completed
@@ -109,3 +120,17 @@ completed_transportation <- data.frame( "Mode" = c(
 
 completed_transportation
 ```
+
+
+```{r}
+completed_transportation$Status <- "Completed"
+dropped_out_transportation$Status <- "Dropped Out"
+
+transport <- rbind(completed_transportation, dropped_out_transportation)
+
+ggplot(transport, aes(x=Mode, y=Count, fill=Status)) + 
+  geom_bar(stat = "identity") +
+  coord_flip()
+```
+
+
