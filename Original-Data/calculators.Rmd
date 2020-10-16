@@ -101,4 +101,3 @@ ggplot(data=ctp2,
     name="Treatment Model",
     labels=c("Clinic", "Co-Op"))
 ```
-
