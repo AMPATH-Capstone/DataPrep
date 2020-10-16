@@ -52,7 +52,7 @@ ggplot(data=cta2,
         panel.grid.minor = element_line(size = 0.25, 
                                         linetype = 'solid',
                                         colour = "grey")) +
-  labs(x="Number of Patients", y="Annual Cost") +
+  labs(x="Number of Patients", y="Annual Cost (KES)") +
   geom_line(size=2) + 
   ggtitle("Annual AMPATH Costs by Treatment Model") +
   scale_color_gdocs(
