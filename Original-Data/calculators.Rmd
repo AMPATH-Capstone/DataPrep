@@ -62,21 +62,21 @@ ggplot(data=cta2,
 
 ## Cost to Patient
 ```{r}
-apps <- c(1:6)
-mtcl <- 95
+apps <- c(1:10)
+mtcl <- 100
 mtcp <- 80
-wtcl <- 20
+wtcl <- 30
 wtcp <- 25
 atcl <- 15
-atcp <- 15
+atcp <- 20
 oc <- 5
 ```
 
 ```{r}
 ctp <-
   data.frame(
-    ctp_cl <- (apps*(mtcl+wtcl+atcl)),
-    ctp_cp <- (apps*(mtcp+wtcp+atcp)),
+    ctp_cl <- (apps*(mtcl+wtcl+atcl)*oc),
+    ctp_cp <- (apps*(mtcp+wtcp+atcp)*oc),
     apps
     )
 
