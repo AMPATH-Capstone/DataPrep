@@ -1,0 +1,13 @@
+name: AMPATH-Cost-Calculator
+title: AMPATH-Cost-Calculator
+username:
+account: ampath-capstone
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3034891
+bundleId: 3750214
+url: https://ampath-capstone.shinyapps.io/AMPATH-Cost-Calculator/
+when: 1602879219.39734
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: www/AMPATH-logo-1.png|www/ampath-logo.jpg|www/ampath-logo.png
