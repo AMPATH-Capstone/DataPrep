@@ -1,0 +1,53 @@
+---
+title: "calculators"
+author: "William Nicholas"
+date: "October 16, 2020"
+output: html_document
+---
+
+##Cost to AMPATH
+```{r}
+patients <- c(1:200)
+
+# Clinic
+mpa_cl <- 15
+hcw_hr_cl <- 25
+apps_cl <- 5
+fc_cl <- 400
+vc_cl <- 5
+
+#Co-Op
+mpa_cp <- 20
+hcw_hr_cp <- 20
+apps_cp <- 5
+fc_cp <- 200
+vc_cp <- 10
+
+
+cta_cl <- (((((mpa_cl/60)*hcw_hr_cl)*apps_cl)+vc_cl)*patients)+fc_cl
+cta_cp <- (((((mpa_cp/60)*hcw_hr_cp)*apps_cp)+vc_cp)*patients)+fc_cp
+
+plot(cta_cl,type = "l",col = "red", xlab = "Patients Treated", ylab = "Annual Cost", 
+   main = "AMPATH Costs Per Patient by Treatment Model")
+lines(cta_cp, type = "l", col = "blue")
+```
+
+## Cost to Patient
+```{r}
+apps <- c(1:6)
+mtcl <- 95
+mtcp <- 80
+wtcl <- 20
+wtcp <- 25
+atcl <- 15
+atcp <- 15
+oc <- 5
+
+ctp_cl <- (apps*(mtcl+wtcl+atcl)) 
+ctp_cp <- (apps*(mtcp+wtcp+atcp))
+
+plot(ctp_cl,type = "o",col = "red", xlab = "Appointments per year", ylab = "Annual Cost", 
+   main = "Patient Costs Per Appointment by Treatment Model")
+lines(ctp_cp, type = "o", col = "blue")
+```
+
