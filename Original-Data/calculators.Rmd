@@ -5,6 +5,12 @@ date: "October 16, 2020"
 output: html_document
 ---
 
+```{r}
+library(ggplot2)
+library(ggthemes)
+library(reshape2)
+```
+
 ##Cost to AMPATH
 ```{r}
 patients <- c(1:200)
@@ -22,14 +28,36 @@ hcw_hr_cp <- 20
 apps_cp <- 5
 fc_cp <- 200
 vc_cp <- 10
+```
 
+```{r}
+cta <-
+  data.frame(
+    cta_cl <- (((((mpa_cl/60)*hcw_hr_cl)*apps_cl)+vc_cl)*patients)+fc_cl,
+    cta_cp <- (((((mpa_cp/60)*hcw_hr_cp)*apps_cp)+vc_cp)*patients)+fc_cp,
+    patients
+    )
 
-cta_cl <- (((((mpa_cl/60)*hcw_hr_cl)*apps_cl)+vc_cl)*patients)+fc_cl
-cta_cp <- (((((mpa_cp/60)*hcw_hr_cp)*apps_cp)+vc_cp)*patients)+fc_cp
+cta2 <- melt(cta, id="patients")
 
-plot(cta_cl,type = "l",col = "red", xlab = "Patients Treated", ylab = "Annual Cost", 
-   main = "AMPATH Costs Per Patient by Treatment Model")
-lines(cta_cp, type = "l", col = "blue")
+ggplot(data=cta2,
+       aes(x=patients, y=value, color=variable)) +
+  theme(plot.title = element_text(color="black", size=14, face="bold"),
+        axis.title.x = element_text(color="black", size=12, face="bold"),
+        axis.title.y = element_text(color="black", size=12, face="bold"),
+        panel.background = element_rect(fill="white"),
+        panel.grid.major = element_line(size = 0.5, 
+                                        linetype = 'solid',
+                                        colour = "grey"), 
+        panel.grid.minor = element_line(size = 0.25, 
+                                        linetype = 'solid',
+                                        colour = "grey")) +
+  labs(x="Number of Patients", y="Annual Cost") +
+  geom_line(size=2) + 
+  ggtitle("Annual AMPATH Costs by Treatment Model") +
+  scale_color_gdocs(
+    name="Treatment Model",
+    labels=c("Clinic", "Co-Op"))
 ```
 
 ## Cost to Patient
@@ -42,12 +70,35 @@ wtcp <- 25
 atcl <- 15
 atcp <- 15
 oc <- 5
+```
 
-ctp_cl <- (apps*(mtcl+wtcl+atcl)) 
-ctp_cp <- (apps*(mtcp+wtcp+atcp))
+```{r}
+ctp <-
+  data.frame(
+    ctp_cl <- (apps*(mtcl+wtcl+atcl)),
+    ctp_cp <- (apps*(mtcp+wtcp+atcp)),
+    apps
+    )
 
-plot(ctp_cl,type = "o",col = "red", xlab = "Appointments per year", ylab = "Annual Cost", 
-   main = "Patient Costs Per Appointment by Treatment Model")
-lines(ctp_cp, type = "o", col = "blue")
+ctp2 <- melt(ctp, id="apps")
+
+ggplot(data=ctp2,
+       aes(x=apps, y=value, color=variable)) +
+  theme(plot.title = element_text(color="black", size=14, face="bold"),
+        axis.title.x = element_text(color="black", size=12, face="bold"),
+        axis.title.y = element_text(color="black", size=12, face="bold"),
+        panel.background = element_rect(fill="white"),
+        panel.grid.major = element_line(size = 0.5, 
+                                        linetype = 'solid',
+                                        colour = "grey"), 
+        panel.grid.minor = element_line(size = 0.25, 
+                                        linetype = 'solid',
+                                        colour = "grey")) +
+  labs(x="Appointments per year", y="Annual Cost (KES)") +
+  geom_line(size=2) + 
+  ggtitle("Annual Patient Costs by Treatment Model") +
+  scale_color_gdocs(
+    name="Treatment Model",
+    labels=c("Clinic", "Co-Op"))
 ```
 
