@@ -7,10 +7,20 @@
 
 library(shiny)
 library(shinythemes)
+library(shinyalert)
+library(markdown)
+
+
 shinyUI(
-  fluidPage(theme = shinytheme("flatly"),
+  fluidPage(
+    theme = shinytheme("flatly"),
+    useShinyalert(),
             navbarPage("AMPATH Cost Calculator",
-              tabPanel("AMPATH Costs",
+                       tabPanel("About",
+                                mainPanel(
+                                  includeHTML("www/index.html")
+                                )),
+                tabPanel("AMPATH Costs",
                        sidebarLayout(
                          sidebarPanel(
                            fluidRow(

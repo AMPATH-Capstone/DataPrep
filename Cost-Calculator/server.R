@@ -10,10 +10,29 @@ library(ggplot2)
 library(ggthemes)
 library(reshape2)
 library(shiny)
+library(shinyalert)
+library(markdown)
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
+      shinyalert(
+        title = "Disclaimer",
+        text = "This application is intended for informational, educational, and research purposes only. It does not represent specific AMPATH costs, patient costs, or other HIV treatment information.
 
+
+        To find out more about this app, please read the About section of this site.",
+        closeOnEsc = TRUE,
+        closeOnClickOutside = TRUE,
+        html = TRUE,
+        type = "info",
+        showConfirmButton = TRUE,
+        showCancelButton = FALSE,
+        confirmButtonText = "OK",
+        confirmButtonCol = "#AEDEF4",
+        timer = 0,
+        imageUrl = "",
+        animation = TRUE
+  )
   output$costAmpathPlot <- renderPlot({
     patients <- c(1:500)
     cta <-
@@ -80,4 +99,8 @@ shinyServer(function(input, output) {
 
   })
 
-})
+
+
+  })
+
+
