@@ -68,8 +68,8 @@ shinyServer(function(input, output) {
 
     ctp <-
       data.frame(
-        ctp_cl <- (pt_num_appt*(input$pt_min_cl+input$pt_wait_cl+input$pt_appt_time_cl)*input$pt_opp_cost),
-        ctp_cp <- (pt_num_appt*(input$pt_min_coop+input$pt_wait_coop+input$pt_appt_time_coop)*input$pt_opp_cost),
+        ctp_cl <- (pt_num_appt*(((input$pt_min_cl+input$pt_wait_cl+input$pt_appt_time_cl)/60)*((input$hourly_wage*input$wrk_hr)+(input$agr_losses*input$ag_hr)+(input$school_hrs*input$sch_hr)+(input$fam_care*input$fam_hr)+(input$inf_sales*input$inf_hr)+(input$other*input$ooc_hr)))),
+        ctp_cp <- (pt_num_appt*(((input$pt_min_coop+input$pt_wait_coop+input$pt_appt_time_coop)/60)*((input$hourly_wage*input$wrk_hr)+(input$agr_losses*input$ag_hr)+(input$school_hrs*input$sch_hr)+(input$fam_care*input$fam_hr)+(input$inf_sales*input$inf_hr)+(input$other*input$ooc_hr)))),
         pt_num_appt
       )
     ctp2 <- melt(ctp, id="pt_num_appt")
@@ -85,7 +85,7 @@ shinyServer(function(input, output) {
             panel.grid.minor = element_line(size = 0.25,
                                             linetype = 'solid',
                                             colour = "grey")) +
-      labs(x="Appointments per year", y="Annual Cost (KES)") +
+      labs(x="Appointments per year", y="Annual Cost (USD)") +
       geom_line(size=2) +
       ggtitle("Annual Patient Costs by Treatment Model") +
       scale_color_gdocs(
