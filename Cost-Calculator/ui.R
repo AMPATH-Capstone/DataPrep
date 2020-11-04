@@ -9,6 +9,13 @@ library(shiny)
 library(shinythemes)
 library(shinyalert)
 library(markdown)
+library(knitr)
+includeRmd <- function(path){
+  contents <- paste(readLines(path, warn = FALSE), collapse = '\n')
+  html <- knit2html(text = contents, fragment.only = TRUE, options=c("use_xhtml","smartypants","mathjax","highlight_code", "base64_images"))
+  Encoding(html) <- 'UTF-8'
+  HTML(html)
+}
 
 
 shinyUI(
@@ -18,7 +25,7 @@ shinyUI(
     navbarPage("AMPATH Cost Calculator",
                tabPanel("About",
                         mainPanel(
-                          includeHTML("www/index.html")
+                          includeRmd("www/index.rmd")
                         )),
                tabPanel("AMPATH Costs",
                         sidebarLayout(

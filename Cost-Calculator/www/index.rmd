@@ -1,0 +1,39 @@
+
+<html lang="en">
+```{r echo=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(ggmap)
+library(RColorBrewer)
+library(patchwork)
+library(here)
+```
+<head>
+</head>
+<body>
+  <h2>Introduction</h2>
+  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie mauris eu lorem facilisis lobortis. Integer pharetra ante sapien, et volutpat purus mollis varius. Aliquam vitae ultricies orci. Aliquam eget enim ut justo dignissim iaculis. Vivamus fringilla felis ac lectus porta gravida. Vestibulum mattis lacus ut massa ullamcorper porta. Vestibulum nec lobortis neque, in euismod turpis. Nam ut risus orci. Etiam eget sollicitudin purus, at finibus tortor.
+
+Sed a dui ipsum. Mauris lobortis mauris nec dui laoreet faucibus. In id nisl nec turpis mattis commodo pharetra eget ante. Curabitur elementum efficitur nunc, eu scelerisque eros porta a. Duis purus arcu, auctor eu cursus sit amet, varius eu felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam sed consequat mauris, a interdum leo. Vestibulum pulvinar neque dolor. Phasellus auctor nec enim et mattis. Etiam tristique mi lectus, in iaculis felis commodo eu. Sed maximus a tellus ut eleifend. Sed eget convallis ex. Curabitur ultrices vehicula consequat. Ut a scelerisque augue. Nunc at est sit amet purus malesuada mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+  <h2> Patient Map</h2>
+  <p> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie mauris eu lorem facilisis lobortis. Integer pharetra ante sapien, et volutpat purus mollis varius. 
+```{r results='kitale_map', message=FALSE, warning=FALSE, echo=FALSE}
+location_data <- read_csv("https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/SublocationsbyTreatment.csv")
+intervention <- filter(location_data, Treatment =="Intervention")
+control <- filter(location_data, Treatment =="Control")
+kitale_bounds <- c(34.547910, 0.779964, 35.422696, 1.301727)
+kitale_map <- get_map(location=kitale_bounds, source="google", maptype="roadmap", crop=FALSE)
+ggmap(kitale_map) + 
+  geom_point(data = intervention, aes(x = Long, y = Lat), color = "navy", size = 1) +
+  geom_point(data = control, aes(x = Long, y = Lat), color = "red", size = 1) +
+  theme(axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks = element_blank(),
+        rect = element_blank(),
+        axis.title.y=element_blank(),
+        axis.title.x=element_blank())
+```
+
+</body>
+</html>

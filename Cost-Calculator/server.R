@@ -5,7 +5,11 @@
 #
 #
 
-
+library(tidyverse)
+library(ggmap)
+library(RColorBrewer)
+library(patchwork)
+library(here)
 library(ggplot2)
 library(ggthemes)
 library(reshape2)
@@ -92,13 +96,7 @@ shinyServer(function(input, output) {
         name="Treatment Model",
         labels=c("Clinic", "Co-Op"))
 
-
-
-
   })
-
-
-
 })
 
 
