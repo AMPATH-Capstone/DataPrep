@@ -17,6 +17,7 @@ library(shiny)
 library(shinyalert)
 library(markdown)
 library(knitr)
+library(shinythemes)
 
 includeRmd <- function(path){
   contents <- paste(readLines(path, warn = FALSE), collapse = '\n')
@@ -34,10 +35,6 @@ shinyUI(
                tabPanel("About",
                         mainPanel(
                           includeRmd("www/index.rmd")
-                        )),
-               tabPanel("Social Determinants",
-                        mainPanel(
-                          includeRmd("www/SocialDet.rmd")
                         )),
                tabPanel("AMPATH Costs",
                         sidebarLayout(
@@ -182,7 +179,10 @@ shinyUI(
                               plotOutput("hoursscatterplot")
                             )),
 
+                        )),
+               tabPanel("Social Determinants",
+                        mainPanel(
+                          includeRmd("www/SocialDet.rmd")
                         ))
-
                )))
 
