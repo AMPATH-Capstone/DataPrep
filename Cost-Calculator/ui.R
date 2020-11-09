@@ -17,6 +17,8 @@ library(shiny)
 library(shinyalert)
 library(markdown)
 library(knitr)
+library(dplyr)
+library(shinythemes)
 
 includeRmd <- function(path){
   contents <- paste(readLines(path, warn = FALSE), collapse = '\n')
