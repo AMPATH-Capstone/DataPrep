@@ -178,11 +178,6 @@ shinyUI(
                               plotOutput("hoursscatterplot")
                             )),
 
-                        )),
-
-               tabPanel("Social Determinants",
-                        mainPanel(
-                          includeRmd("www/sd.rmd")
                         ))
                )))
 
