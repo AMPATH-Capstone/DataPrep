@@ -1,0 +1,235 @@
+---
+title: "AMPATH_compare"
+author: "Kelsey Cooper"
+date: "11/8/2020"
+output: html_document
+---
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(ggthemes)
+library(readr)
+library(dplyr)
+
+raw_data <- "https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/new_ArtsCoop.csv" 
+ampath_data <- read_csv(raw_data)
+```
+
+```{r}
+controlgroup<- ampath_data %>% 
+      filter(redcap_event_name =='Month 12' & participant_arm =='Control')
+
+controlgroup$healthtime <- ((((controlgroup$time_to_hc_mins*2) + controlgroup$waiting_time + controlgroup$consult_time)/60)*controlgroup$own_health_visit)
+
+controlgroup$annualincome <- controlgroup$income_earned_hsm1 * 13
+controlgroup$annualworkhours <- 52 * controlgroup$work_hrs_hsm1
+
+controlmeanhealthtime <- mean(controlgroup$healthtime, na.rm=T)
+controlmeanhealthtime
+
+controlmeanworkhours <- mean(controlgroup$annualworkhours, na.rm=T)
+controlmeanworkhours
+
+
+
+controlgroup
+```
+
+
+```{r}
+interventiongroup<- ampath_data %>% 
+      filter(redcap_event_name =='Month 12' & participant_arm =='Intervention')
+
+interventiongroup$healthtime <- (((interventiongroup$interven_time_to_meet_mins*2) + interventiongroup$time_spent_meeting)/60 *interventiongroup$no_of_meetings_att)
+
+interventiongroup$annualincome <- interventiongroup$income_earned_hsm1 * 13
+interventiongroup$annualworkhours <- 52 * interventiongroup$work_hrs_hsm1
+
+interventionmeanhealthtime <- mean(interventiongroup$healthtime, na.rm=T)
+interventionmeanhealthtime
+
+interventionmeanworkhours <- mean(interventiongroup$annualworkhours, na.rm=T)
+interventionmeanworkhours
+
+interventiongroup
+```
+
+```{r}
+combined <-  rbind(controlgroup, interventiongroup)
+
+
+```
+
+Scatterplot Hours Worked by Health Hours
+
+```{r, warning=FALSE}
+library(tidyverse)
+
+ggplot(combined, aes(annualworkhours, healthtime)) +
+  geom_point(aes(color = factor(participant_arm))) +
+  labs(
+    x = "Annual Hours of Work per Year",
+    y = "Annual Hours of Health Year",
+    color = "Treatment Group"
+  )  + 
+  xlim(0,4200)+
+  ylim(0,25)+
+      geom_smooth(method=lm,aes(fill=factor(participant_arm)),show_guide = FALSE)
+```
+School 
+```{r}
+
+library(dplyr)
+interventiongroup2 <- interventiongroup
+controlgroup2 <- controlgroup
+interventiongroup2 <- interventiongroup2 %>%
+  mutate_if(is.numeric, funs(ifelse(is.na(.), 0, .)))
+controlgroup2 <- controlgroup2 %>%
+  mutate_if(is.numeric, funs(ifelse(is.na(.), 0, .)))
+
+interventiongroup2$totalassets <-rowSums(interventiongroup[,c("landvalue", "chicken_value", "cows_value","goats_value","sheep_value","mattresses_value","mobilephones_value","bicycles_value","televisions_value", "radio_value", "watches_value","stove_value")])
+
+controlgroup2$totalassets <-rowSums(controlgroup[,c("landvalue", "chicken_value", "cows_value","goats_value","sheep_value","mattresses_value","mobilephones_value","bicycles_value","televisions_value", "radio_value", "watches_value","stove_value")])
+
+
+
+newcombined <-  rbind(controlgroup2, interventiongroup2)
+```
+
+```{r}
+controlgroup3<- ampath_data %>% 
+      filter(redcap_event_name =='Initial' & participant_arm =='Control')
+
+interventiongroup3<- ampath_data %>% 
+      filter(redcap_event_name =='Initial' & participant_arm =='Intervention')
+
+newnewcombined <-  rbind(controlgroup3, interventiongroup3)
+
+newnewnewcombined <-  merge(newcombined,newnewcombined,by = "study_id")
+
+newnewnewcombined$school_hsm1_code <-ifelse(newnewnewcombined$highest_school_level_hsm1 == "No school", 0, 
+                           ifelse(newnewnewcombined$highest_school_level_hsm1 == "P1-P8", 1,
+                                  ifelse(newnewnewcombined$highest_school_level_hsm1 == "S1-S4", 2,
+                                          ifelse(newnewnewcombined$highest_school_level_hsm1 == "Tertiary/Vocational", 3,
+                                                  ifelse(newnewnewcombined$highest_school_level_hsm1 == "University", 4, 
+                                                         ifelse(newnewnewcombined$highest_school_level_hsm1 == "Post-graduate", 5, 
+                                                                 NA))))))
+newnewnewcombined$school_hsm1_code <- as.numeric(newnewnewcombined$school_hsm1_code)
+
+newnewnewcombined$sex_hsm1_code <- ifelse(newnewnewcombined$sex_hsm1 == "Male", 1, ifelse(newnewnewcombined$sex_hsm1 == "Female", 0, NA))
+
+```
+
+```{r}
+byedu <- newnewnewcombined %>% group_by(participant_arm, school_hsm1_code)
+byedu  <- byedu %>% summarize(
+  mxh = max(healthtime),
+  mih = min(healthtime),
+  mnh = mean(healthtime)
+)
+ggplot(data=byedu,
+           aes(x=school_hsm1_code, ymin=mih, ymax =mxh, y=mnh, color=participant_arm, group=participant_arm)) +
+      theme(plot.title = element_text(color="black", size=14, face="bold"),
+            axis.title.x = element_text(color="black", size=12, face="bold"),
+            axis.title.y = element_text(color="black", size=12, face="bold"),
+            panel.background = element_rect(fill="white"),
+            panel.grid.major = element_line(size = 0.5,
+                                            linetype = 'solid',
+                                            colour = "grey"),
+            panel.grid.minor = element_line(size = 0.25,
+                                            linetype = 'solid',
+                                            colour = "grey")) +
+      labs(x="Level of Education", y="Hours Demanded by Healthcare") +
+      geom_pointrange(position=position_dodge(width=0.20)) +
+      ggtitle("Hours Demanded by Healthcare by Education Level - AMPATH Study") +
+      scale_color_gdocs(
+        name="Treatment Model",
+        labels=c("Clinic", "Co-Op"))
+
+```
+```{r}
+library(scales)
+byeassets <- newnewnewcombined %>% group_by(participant_arm, school_hsm1_code)
+byeassets  <- byeassets %>% summarize(
+  mxh1 = max(totalassets),
+  mih1 = min(totalassets),
+  mnh1 = mean(totalassets)
+)
+ggplot(data=byeassets,
+           aes(x=school_hsm1_code, ymin=mih1, ymax =mxh1, y=mnh1, color=participant_arm, group=participant_arm)) +
+      theme(plot.title = element_text(color="black", size=14, face="bold"),
+            axis.title.x = element_text(color="black", size=12, face="bold"),
+            axis.title.y = element_text(color="black", size=12, face="bold"),
+            panel.background = element_rect(fill="white"),
+            panel.grid.major = element_line(size = 0.5,
+                                            linetype = 'solid',
+                                            colour = "grey"),
+            panel.grid.minor = element_line(size = 0.25,
+                                            linetype = 'solid',
+                                            colour = "grey")) +
+      labs(x="Level of Education", y="Total Asset Value (KES)") +
+      geom_pointrange(position=position_dodge(width=0.20)) +
+      ggtitle("Total Assets by Education Level - AMPATH Study") +
+      scale_color_gdocs(
+        name="Treatment Model",
+        labels=c("Clinic", "Co-Op")) + 
+  scale_y_continuous(labels=comma)
+```
+
+```{r}
+newnewnewcombined$work_hrs_hsm1_year <- newnewnewcombined$work_hrs_hsm1*52
+byhoursworked <- newnewnewcombined %>% group_by(participant_arm, school_hsm1_code)
+byhoursworked  <- byhoursworked  %>% summarize(
+  mxh2 = max(work_hrs_hsm1),
+  mih2 = min(work_hrs_hsm1),
+  mnh2 = mean(work_hrs_hsm1)
+)
+ggplot(data=byhoursworked,
+           aes(x=school_hsm1_code, ymin=mih2, ymax =mxh2, y=mnh2, color=participant_arm, group=participant_arm)) +
+      theme(plot.title = element_text(color="black", size=14, face="bold"),
+            axis.title.x = element_text(color="black", size=12, face="bold"),
+            axis.title.y = element_text(color="black", size=12, face="bold"),
+            panel.background = element_rect(fill="white"),
+            panel.grid.major = element_line(size = 0.5,
+                                            linetype = 'solid',
+                                            colour = "grey"),
+            panel.grid.minor = element_line(size = 0.25,
+                                            linetype = 'solid',
+                                            colour = "grey")) +
+      labs(x="Education Level", y="Hours Worked in a Year") +
+      geom_pointrange(position=position_dodge(width=0.20)) +
+      ggtitle("Total Hours Worked in a Year by Education Level - AMPATH Study") +
+      scale_color_gdocs(
+        name="Treatment Model",
+        labels=c("Clinic", "Co-Op"))
+```
+
+```{r}
+bygender <- newnewnewcombined %>% group_by(participant_arm, sex_hsm1_code)
+bygender  <- bygender %>% summarize(
+  mxh = max(healthtime),
+  mih = min(healthtime),
+  mnh = mean(healthtime)
+)
+ggplot(data=bygender,
+           aes(x=sex_hsm1_code, ymin=mih, ymax =mxh, y=mnh, color=participant_arm, group=participant_arm)) +
+      theme(plot.title = element_text(color="black", size=14, face="bold"),
+            axis.title.x = element_text(color="black", size=12, face="bold"),
+            axis.title.y = element_text(color="black", size=12, face="bold"),
+            panel.background = element_rect(fill="white"),
+            panel.grid.major = element_line(size = 0.5,
+                                            linetype = 'solid',
+                                            colour = "grey"),
+            panel.grid.minor = element_line(size = 0.25,
+                                            linetype = 'solid',
+                                            colour = "grey")) +
+      labs(x="Gender (0 = F , 1 = M)", y="Hours Demanded by Healthcare") +
+      geom_pointrange(position=position_dodge(width=0.20)) +
+      ggtitle("Time Spent on Healthcare by Gender - AMPATH Study") +
+      scale_color_gdocs(
+        name="Treatment Model",
+        labels=c("Clinic", "Co-Op")) + 
+  scale_x_continuous(breaks=c(0,1))
+
+```
+
