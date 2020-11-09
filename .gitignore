@@ -1,3 +1,4 @@
 
 *.png
 *.icloud
+.DS_Store
