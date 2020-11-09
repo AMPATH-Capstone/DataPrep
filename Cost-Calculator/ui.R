@@ -35,6 +35,10 @@ shinyUI(
                         mainPanel(
                           includeRmd("www/index.rmd")
                         )),
+               tabPanel("Social Determinants",
+                        mainPanel(
+                          includeRmd("www/SocialDet.rmd")
+                        )),
                tabPanel("AMPATH Costs",
                         sidebarLayout(
                           sidebarPanel(
@@ -179,5 +183,6 @@ shinyUI(
                             )),
 
                         ))
+
                )))
 

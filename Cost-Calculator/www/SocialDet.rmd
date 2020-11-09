@@ -1,0 +1,24 @@
+
+<html lang="en">
+<body>
+<h2> Social Determinants </h2>
+<br>
+
+<img src = "HoursByGender.png" width="725" height="500"/>
+<br>
+<br>
+
+
+<img src = "HoursByEdu.png" width="725" height="500"/>
+<br>
+<br>
+
+
+<img src = "HoursByWork.png" width="725" height="500"/>
+<br>
+<br>
+
+<img src = "AssetsbyEdu.png" width="725" height="500"/>
+
+</body>
+</html>
