@@ -5,11 +5,19 @@
 #
 #
 
+library(tidyverse)
+library(RColorBrewer)
+library(patchwork)
+library(here)
+library(ggmap)
+library(ggplot2)
+library(ggthemes)
+library(reshape2)
 library(shiny)
-library(shinythemes)
 library(shinyalert)
 library(markdown)
 library(knitr)
+
 includeRmd <- function(path){
   contents <- paste(readLines(path, warn = FALSE), collapse = '\n')
   html <- knit2html(text = contents, fragment.only = TRUE, options=c("use_xhtml","smartypants","mathjax","highlight_code", "base64_images"))
@@ -113,41 +121,41 @@ shinyUI(
                                            value = 0),
                               h4("Opportunity Costs"),
                               numericInput("hourly_wage",
-                                           "Wage per hour (USD)",
+                                           "Wage per hour (KES)",
                                            value = 0),
                               numericInput("wrk_hr",
                                            "Work - Share of total hours missed",
                                            value = 0.00),
                               numericInput("fam_care",
-                                           "Value of an hour of family care (USD)",
+                                           "Value of an hour of family care (KES)",
                                            value = 0),
                               numericInput("fam_hr",
                                            "Family care - Share of total hours missed",
                                            value = 0.00),
                               numericInput("school_hrs",
-                                           "Value of an hour of school (USD)",
+                                           "Value of an hour of school (KES)",
                                            value = 0.00),
                               numericInput("sch_hr",
                                            "School - Share of total hours missed",
                                            value = 0.00),
                               numericInput("inf_sales",
-                                           "Value of an hour of informal sales (USD)",
+                                           "Value of an hour of informal sales (KES)",
                                            value = 0),
                               numericInput("inf_hr",
                                            "Informal sales - Share of total hours missed",
                                            value = 0.00),
                               numericInput("agr_losses",
-                                           "Value of an hour of agricultural work (USD)",
+                                           "Value of an hour of agricultural work (KES)",
                                            value = 0),
                               numericInput("ag_hr",
                                            "Agriculture - Share of total hours missed",
                                            value = 0.00),
                               numericInput("other",
-                                           "Value of an hour of other opportunity costs (USD)",
+                                           "Value of an hour of other opportunity costs (KES)",
                                            value = 0),
                               numericInput("ooc_hr",
                                            "Other - Share of total hours missed",
-                                           value = 0.00),
+                                           value = 0),
 
                               hr(),
 
@@ -159,8 +167,22 @@ shinyUI(
                             fluidRow(
 
                               # Show a plot of the costs
+                              strong(h4("Calculation Plots")),
                               plotOutput("costPatientPlot"),
-
+                              br(),
+                              plotOutput("hoursPatientPlot"),
+                              br(),
+                              strong(h4("Comparison Plots from AMPATH ART Co-Op Study")),
+                              plotOutput("costscatterplot"),
+                              br(),
+                              plotOutput("hoursscatterplot")
                             )),
-                        )))))
+
+                        )),
+
+               tabPanel("Social Determinants",
+                        mainPanel(
+                          includeRmd("www/sd.rmd")
+                        ))
+               )))
 
