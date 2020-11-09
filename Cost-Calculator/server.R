@@ -18,7 +18,6 @@ library(shinyalert)
 library(markdown)
 library(knitr)
 library(dplyr)
-library(shinythemes)
 
 dfac <- read_csv("https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/new_ArtsCoop.csv")
 
