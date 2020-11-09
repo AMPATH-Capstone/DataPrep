@@ -4,21 +4,21 @@
 <h2> Social Determinants </h2>
 <br>
 
-<img src = "HoursByGender.png" width="725" height="500"/>
+<img src = "https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Cost-Calculator/www/HoursbyGender.png" width="725" height="500"/>
 <br>
 <br>
 
 
-<img src = "HoursByEdu.png" width="725" height="500"/>
+<img src = "https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Cost-Calculator/www/HoursbyEdu.png" width="725" height="500"/>
 <br>
 <br>
 
 
-<img src = "HoursByWork.png" width="725" height="500"/>
+<img src = "https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Cost-Calculator/www/HoursbyWork.png" width="725" height="500"/>
 <br>
 <br>
 
-<img src = "AssetsbyEdu.png" width="725" height="500"/>
+<img src = "https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Cost-Calculator/www/AssetsbyEdu.png" width="725" height="500"/>
 
 </body>
 </html>
