@@ -179,6 +179,10 @@ shinyUI(
                               plotOutput("hoursscatterplot")
                             )),
 
+<<<<<<< Updated upstream
                         )),
+=======
+                        ))
+>>>>>>> Stashed changes
                )))
 
