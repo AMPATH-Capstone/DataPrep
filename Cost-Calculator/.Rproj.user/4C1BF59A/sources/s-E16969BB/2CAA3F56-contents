@@ -18,7 +18,6 @@ library(shinyalert)
 library(markdown)
 library(knitr)
 library(dplyr)
-library(shinythemes)
 
 dfac <- read_csv("https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/new_ArtsCoop.csv")
 
@@ -176,7 +175,7 @@ shinyServer(function(input, output) {
             panel.grid.minor = element_line(size = 0.25,
                                             linetype = 'solid',
                                             colour = "grey")) +
-      labs(x="Annual Appointments", y="Hours Demanded by Healthcare") +
+      labs(x="Annual Appointments", y="Non-Opportunity Patient Costs") +
       geom_pointrange(position=position_dodge(width=0.20)) +
       ggtitle("Non-Opportunity Patient Costs by Treatment Model - AMPATH Study") +
       scale_color_gdocs(

@@ -180,9 +180,5 @@ shinyUI(
                             )),
 
                         )),
-               tabPanel("Social Determinants",
-                        mainPanel(
-                          includeRmd("www/SocialDet.rmd")
-                        ))
                )))
 
