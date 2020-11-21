@@ -80,9 +80,9 @@ shinyServer(function(input, output) {
     cta2 <- melt(cta, id="ptcount")
     ggplot(data=cta2,
            aes(x=ptcount, y=value, color=variable)) +
-      theme(plot.title = element_text(color="black", size=14, face="bold"),
-            axis.title.x = element_text(color="black", size=12, face="bold"),
-            axis.title.y = element_text(color="black", size=12, face="bold"),
+      theme(plot.title = element_text(color="black", size=16, face="bold"),
+            axis.title.x = element_text(color="black", size=14, face="bold"),
+            axis.title.y = element_text(color="black", size=14, face="bold"),
             panel.background = element_rect(fill="white"),
             panel.grid.major = element_line(size = 0.5,
                                             linetype = 'solid',
@@ -111,9 +111,9 @@ shinyServer(function(input, output) {
     ctp2 <- melt(ctp, id="pt_num_appt")
     ggplot(data=ctp2,
            aes(x=pt_num_appt, y=value, color=variable)) +
-      theme(plot.title = element_text(color="black", size=14, face="bold"),
-            axis.title.x = element_text(color="black", size=12, face="bold"),
-            axis.title.y = element_text(color="black", size=12, face="bold"),
+      theme(plot.title = element_text(color="black", size=16, face="bold"),
+            axis.title.x = element_text(color="black", size=14, face="bold"),
+            axis.title.y = element_text(color="black", size=14, face="bold"),
             panel.background = element_rect(fill="white"),
             panel.grid.major = element_line(size = 0.5,
                                             linetype = 'solid',
@@ -142,9 +142,9 @@ shinyServer(function(input, output) {
     ctp2 <- melt(ctp, id="pt_num_appt")
     ggplot(data=ctp2,
            aes(x=pt_num_appt, y=value, color=variable)) +
-      theme(plot.title = element_text(color="black", size=14, face="bold"),
-            axis.title.x = element_text(color="black", size=12, face="bold"),
-            axis.title.y = element_text(color="black", size=12, face="bold"),
+      theme(plot.title = element_text(color="black", size=16, face="bold"),
+            axis.title.x = element_text(color="black", size=14, face="bold"),
+            axis.title.y = element_text(color="black", size=14, face="bold"),
             panel.background = element_rect(fill="white"),
             panel.grid.major = element_line(size = 0.5,
                                             linetype = 'solid',
@@ -165,9 +165,9 @@ shinyServer(function(input, output) {
 
     ggplot(data=byappt,
            aes(x=Appointments, ymin=mih, ymax =mxh, y=mnh, color=participant_arm, group=participant_arm)) +
-      theme(plot.title = element_text(color="black", size=14, face="bold"),
-            axis.title.x = element_text(color="black", size=12, face="bold"),
-            axis.title.y = element_text(color="black", size=12, face="bold"),
+      theme(plot.title = element_text(color="black", size=16, face="bold"),
+            axis.title.x = element_text(color="black", size=14, face="bold"),
+            axis.title.y = element_text(color="black", size=14, face="bold"),
             panel.background = element_rect(fill="white"),
             panel.grid.major = element_line(size = 0.5,
                                             linetype = 'solid',
@@ -176,7 +176,7 @@ shinyServer(function(input, output) {
                                             linetype = 'solid',
                                             colour = "grey")) +
       labs(x="Annual Appointments", y="Non-Opportunity Patient Costs") +
-      geom_pointrange(position=position_dodge(width=0.20)) +
+      geom_pointrange(position=position_dodge(width=0.20), size=1) +
       ggtitle("Non-Opportunity Patient Costs by Treatment Model - AMPATH Study") +
       scale_color_gdocs(
         name="Treatment Model",
@@ -187,10 +187,10 @@ shinyServer(function(input, output) {
   output$costscatterplot <- renderPlot({
 
     ggplot(data=byappt,
-           aes(x=Appointments, ymin=mic, ymax =mxc, y=mnc, color=participant_arm, group=participant_arm)) +
-      theme(plot.title = element_text(color="black", size=14, face="bold"),
-            axis.title.x = element_text(color="black", size=12, face="bold"),
-            axis.title.y = element_text(color="black", size=12, face="bold"),
+           aes(x=Appointments, ymin=mic, ymax=mxc, y=mnc, color=participant_arm, group=participant_arm)) +
+      theme(plot.title = element_text(color="black", size=16, face="bold"),
+            axis.title.x = element_text(color="black", size=14, face="bold"),
+            axis.title.y = element_text(color="black", size=14, face="bold"),
             panel.background = element_rect(fill="white"),
             panel.grid.major = element_line(size = 0.5,
                                             linetype = 'solid',
@@ -199,7 +199,7 @@ shinyServer(function(input, output) {
                                             linetype = 'solid',
                                             colour = "grey")) +
       labs(x="Annual Appointments", y="Hours Demanded by Healthcare") +
-      geom_pointrange(position=position_dodge(width=0.20)) +
+      geom_pointrange(position=position_dodge(width=0.20), size=1) +
       ggtitle("Hours Demanded by Treatment Model - AMPATH Study") +
       scale_color_gdocs(
         name="Treatment Model",

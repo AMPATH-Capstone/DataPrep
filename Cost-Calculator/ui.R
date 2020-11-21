@@ -166,8 +166,6 @@ shinyUI(
 
                           mainPanel(
                             fluidRow(
-
-                              # Show a plot of the costs
                               strong(h4("Calculation Plots")),
                               plotOutput("costPatientPlot"),
                               br(),
@@ -177,12 +175,7 @@ shinyUI(
                               plotOutput("costscatterplot"),
                               br(),
                               plotOutput("hoursscatterplot")
-                            )),
-
-<<<<<<< Updated upstream
-                        )),
-=======
+                            ))
                         ))
->>>>>>> Stashed changes
                )))
 
