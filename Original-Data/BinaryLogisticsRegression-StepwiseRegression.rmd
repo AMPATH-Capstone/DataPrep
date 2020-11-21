@@ -1,0 +1,84 @@
+---
+title: "Binary Logistic Regression & Stepwise_Regression"
+author: "Kelsey Cooper"
+date: "11/21/2020"
+output: html_document
+---
+
+```{r}
+library(mlbench)
+library(MASS)
+library(pROC)
+library(tidyverse)
+library(ggplot2)
+library(ggthemes)
+library(readr)
+library(dplyr)
+
+raw_data <- "https://raw.githubusercontent.com/AMPATH-Capstone/DataPrep/master/Original-Data/regression_data.csv" 
+ampath_data <- read_csv(raw_data)
+
+ampath_data$highest_school_level_hsm1 <-ifelse(ampath_data$highest_school_level_hsm1 == "No school", 0, 
+                           ifelse(ampath_data$highest_school_level_hsm1 == "P1-P8", 1,
+                                  ifelse(ampath_data$highest_school_level_hsm1 == "S1-S4", 2,
+                                          ifelse(ampath_data$highest_school_level_hsm1 == "Tertiary/Vocational", 3,
+                                                  ifelse(ampath_data$highest_school_level_hsm1 == "University", 4, 
+                                                         ifelse(ampath_data$highest_school_level_hsm1 == "Post-graduate", 5, 
+                                                                 NA))))))
+ampath_data$marital_status_hsm1<- ifelse(ampath_data$marital_status_hsm1 == "Married", 1, ifelse(ampath_data$marital_status_hsm1 == "Cohabitating", 2, ifelse(ampath_data$marital_status_hsm1 == "Divorced", 3,ifelse(ampath_data$marital_status_hsm1 == "Separated", 4, ifelse(ampath_data$marital_status_hsm1 == "Widowed", 5,ifelse(ampath_data$marital_status_hsm1 == "Separated", 4, ifelse(ampath_data$marital_status_hsm1 == "Never married", 6, NA)))))))
+
+ampath_data$sex_hsm1 <- ifelse(ampath_data$sex_hsm1 == "Male", 1, ifelse(ampath_data$sex_hsm1 == "Female", 0, NA))
+
+```
+
+Cleaned Table for Binary Logistic Regression for Control Group
+```{r}
+controlgroup<- ampath_data %>% 
+      filter(redcap_event_name =='Initial' & participant_arm =='Control')
+controlgroup <- na.omit(controlgroup)
+controlgroup_new <- controlgroup[-c(1, 3:4)]
+```
+Summary of Binary Logistic Regression for Control Group
+```{r}
+logit_1 <- glm(droppedout~., family = binomial,data = controlgroup_new)
+summary(logit_1)
+```
+Cleaned Table for Binary Logistic Regression for Intervention Group 
+```{r}
+interventiongroup<- ampath_data %>% 
+      filter(redcap_event_name =='Initial' & participant_arm =='Intervention')
+interventiongroup <- na.omit(interventiongroup)
+interventiongroup_new <- interventiongroup[-c(1, 3:4)]
+```
+
+Summary of Binary Logistic Regression for Intervention Group 
+```{r}
+logit_2 <- glm(droppedout~., family = binomial,data = interventiongroup_new)
+summary(logit_2)
+```
+
+AMPATH Data regardless of intervention or control group 
+```{r}
+ampath_data_new <- ampath_data[-c(1, 3:4)]
+logit_3 <- glm(droppedout~., family = binomial,data = ampath_data_new)
+summary(logit_3)
+```
+
+
+Stepwise Regression for Control Group 
+```{r}
+logit_4 <- stepAIC(logit_1)
+```
+```{r}
+summary(logit_4)
+```
+
+Stepwise Regression for Intervention Group 
+```{r}
+logit_5 <- stepAIC(logit_2)
+```
+
+```{r}
+summary(logit_5)
+```
+
