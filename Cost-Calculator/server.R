@@ -73,8 +73,8 @@ shinyServer(function(input, output) {
     ptcount <- c(1:500)
     cta <-
       data.frame(
-        cta_cl <- ptcount*(((input$cl_clinicians+input$cl_staff+input$cl_travel+input$cl_equipment)/input$cl_clinics)/input$cl_patients),
-        cta_cp <- ptcount*(((input$coop_clinicians+input$coop_staff+input$coop_travel+input$coop_equipment)/input$coop_clinics)/input$coop_patients),
+        cta_cl <- ptcount*(((input$cl_clinicians+input$cl_staff+input$cl_travel+input$cl_equipment+input$cl_other)/input$cl_clinics)/input$cl_patients),
+        cta_cp <- ptcount*(((input$coop_clinicians+input$coop_staff+input$coop_travel+input$coop_equipment+input$coop_other)/input$coop_clinics)/input$coop_patients),
         ptcount
       )
     cta2 <- melt(cta, id="ptcount")
