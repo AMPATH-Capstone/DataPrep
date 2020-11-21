@@ -175,7 +175,7 @@ shinyServer(function(input, output) {
             panel.grid.minor = element_line(size = 0.25,
                                             linetype = 'solid',
                                             colour = "grey")) +
-      labs(x="Annual Appointments", y="Non-Opportunity Patient Costs") +
+      labs(x="Annual Appointments", y="Hours Demanded by Healthcare") +
       geom_pointrange(position=position_dodge(width=0.20), size=1) +
       ggtitle("Non-Opportunity Patient Costs by Treatment Model - AMPATH Study") +
       scale_color_gdocs(
@@ -198,7 +198,7 @@ shinyServer(function(input, output) {
             panel.grid.minor = element_line(size = 0.25,
                                             linetype = 'solid',
                                             colour = "grey")) +
-      labs(x="Annual Appointments", y="Hours Demanded by Healthcare") +
+      labs(x="Annual Appointments", y="Non-Opportunity Patient Costs") +
       geom_pointrange(position=position_dodge(width=0.20), size=1) +
       ggtitle("Hours Demanded by Treatment Model - AMPATH Study") +
       scale_color_gdocs(
