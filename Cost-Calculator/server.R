@@ -177,7 +177,7 @@ shinyServer(function(input, output) {
                                             colour = "grey")) +
       labs(x="Annual Appointments", y="Hours Demanded by Healthcare") +
       geom_pointrange(position=position_dodge(width=0.20), size=1) +
-      ggtitle("Non-Opportunity Patient Costs by Treatment Model - AMPATH Study") +
+      ggtitle("Hours Demanded by Treatment Model - AMPATH Study") +
       scale_color_gdocs(
         name="Treatment Model",
         labels=c("Clinic", "Co-Op"))
@@ -200,7 +200,7 @@ shinyServer(function(input, output) {
                                             colour = "grey")) +
       labs(x="Annual Appointments", y="Non-Opportunity Patient Costs") +
       geom_pointrange(position=position_dodge(width=0.20), size=1) +
-      ggtitle("Hours Demanded by Treatment Model - AMPATH Study") +
+      ggtitle("Non-Opportunity Patient Costs by Treatment Model - AMPATH Study") +
       scale_color_gdocs(
         name="Treatment Model",
         labels=c("Clinic", "Co-Op"))

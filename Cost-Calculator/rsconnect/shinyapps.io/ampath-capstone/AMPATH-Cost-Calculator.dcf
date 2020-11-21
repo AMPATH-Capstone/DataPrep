@@ -5,8 +5,8 @@ account: ampath-capstone
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3034891
-bundleId: 3888724
+bundleId: 3889202
 url: https://ampath-capstone.shinyapps.io/AMPATH-Cost-Calculator/
-when: 1605977892.11331
+when: 1605992021.17463
 asMultiple: FALSE
 asStatic: FALSE
