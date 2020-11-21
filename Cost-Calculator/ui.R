@@ -75,6 +75,7 @@ shinyUI(
                                            value=0),
                               numericInput("coop_equipment",
                                            "Total Equipment Cost (USD)",
+                                           value=0),
                               numericInput("coop_other",
                                            "Total Other Cost (USD)",
                                            value=0),
@@ -84,7 +85,7 @@ shinyUI(
                               numericInput("coop_patients",
                                            "Average number of patients by co-op",
                                            value=0),
-                              hr(),
+                              hr()
 
 
                             )),
