@@ -12,7 +12,7 @@ library(here)
 </head>
 <body>
 <h2>Introduction</h2>
-<p>This application was developed by graduate students at the <a href="https://oneill.indiana.edu">Paul H. O'Neill School of Public and Environmental Affairs</a> at Indiana University - Bloomington for the <a href="https://www.ampathkenya.org/">Academic Model Providing Access to Healthcare (AMPATH)</a> partnership. The intended purpose of this application is to provide AMPATH with a way to visually compare the direct and opportunity costs of clinical and cooperative care models. This calculator was produced as part of a graduate capstone course in the fall semester of 2020. The data and calculations used to present these figures are sourced from a study overseen by Dr. Suzanne Goodrich and through capstone research.</p>
+<p>This application was developed by graduate students at the <a href="https://oneill.indiana.edu">Paul H. O'Neill School of Public and Environmental Affairs</a> at Indiana University - Bloomington for the <a href="https://www.ampathkenya.org/">Academic Model Providing Access to Healthcare (AMPATH)</a> partnership. The intended purpose of this application is to provide a tool to visually compare the direct and opportunity costs of antiretroviral cooperative care models. This calculator was produced as part of a graduate capstone course in the fall semester of 2020. The data and calculations used to present these figures are sourced from a study overseen by Dr. Suzanne Goodrich and through capstone research.</p>
 <br>
 <br>
 <p>For more information, contact us:</p>

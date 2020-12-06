@@ -1,6 +1,5 @@
 #
 # AMAPTH Cost Calculator for Co-Op vs Clinic
-# Shiny App Developers: Kelsey Cooper & William Nicholas
 # SPEA-V 600: Capstone
 #
 #
@@ -18,6 +17,7 @@ library(shinyalert)
 library(markdown)
 library(knitr)
 library(shinythemes)
+library(scales)
 
 includeRmd <- function(path){
   contents <- paste(readLines(path, warn = FALSE), collapse = '\n')
@@ -31,44 +31,19 @@ shinyUI(
   fluidPage(
     theme = shinytheme("flatly"),
     useShinyalert(),
-    navbarPage("AMPATH Cost Calculator",
+    navbarPage("ART Co-ops Cost Calculator",
                tabPanel("About",
                         mainPanel(
                           includeRmd("www/index.rmd")
                         )),
-               tabPanel("AMPATH Costs",
+               tabPanel("Administrative Costs",
                         sidebarLayout(
                           sidebarPanel(
                             fluidRow(
-                              h3("Clinic Annual Costs"),
-                              numericInput("cl_clinicians",
-                                           "Total Clinician Cost (USD)",
-                                           value=0),
-                              numericInput("cl_staff",
-                                           "Total Staff Cost (USD)",
-                                           value=0),
-                              numericInput("cl_travel",
-                                           "Total Travel Cost (USD)",
-                                           value=0),
-                              numericInput("cl_equipment",
-                                           "Total Equipment Cost (USD)",
-                                           value=0),
-                              numericInput("cl_other",
-                                           "Total Other Cost (USD)",
-                                           value=0),
-                              numericInput("cl_clinics",
-                                           "Average number of active clinics",
-                                           value=0),
-                              numericInput("cl_patients",
-                                           "Average number of patients by clinic",
-                                           value=0),
-                              hr(),
-                              h3("Co-op Annual Costs"),
-                              numericInput("coop_clinicians",
-                                           "Total Clinician Cost (USD)",
-                                           value=0),
-                              numericInput("coop_staff",
-                                           "Total Staff Cost (USD)",
+                              h3("Real World Co-op Costs"),
+                              h4("Annually per community group"),
+                              numericInput("coop_train",
+                                           "Total Training Cost (USD)",
                                            value=0),
                               numericInput("coop_travel",
                                            "Total Travel Cost (USD)",
@@ -79,14 +54,7 @@ shinyUI(
                               numericInput("coop_other",
                                            "Total Other Cost (USD)",
                                            value=0),
-                              numericInput("coop_clinics",
-                                           "Average number of active co-ops",
-                                           value=0),
-                              numericInput("coop_patients",
-                                           "Average number of patients by co-op",
-                                           value=0),
                               hr()
-
 
                             )),
 
@@ -177,7 +145,7 @@ shinyUI(
                               br(),
                               plotOutput("hoursPatientPlot"),
                               br(),
-                              strong(h4("Comparison Plots from AMPATH ART Co-Op Study")),
+                              strong(h4("Comparison Plots from ART Co-Op Study")),
                               plotOutput("costscatterplot"),
                               br(),
                               plotOutput("hoursscatterplot")

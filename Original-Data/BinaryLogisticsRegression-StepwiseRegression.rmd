@@ -25,10 +25,6 @@ ampath_data$highest_school_level_hsm1 <-ifelse(ampath_data$highest_school_level_
                                                   ifelse(ampath_data$highest_school_level_hsm1 == "University", 4, 
                                                          ifelse(ampath_data$highest_school_level_hsm1 == "Post-graduate", 5, 
                                                                  NA))))))
-ampath_data$marital_status_hsm1<- ifelse(ampath_data$marital_status_hsm1 == "Married", 1, ifelse(ampath_data$marital_status_hsm1 == "Cohabitating", 2, ifelse(ampath_data$marital_status_hsm1 == "Divorced", 3,ifelse(ampath_data$marital_status_hsm1 == "Separated", 4, ifelse(ampath_data$marital_status_hsm1 == "Widowed", 5,ifelse(ampath_data$marital_status_hsm1 == "Separated", 4, ifelse(ampath_data$marital_status_hsm1 == "Never married", 6, NA)))))))
-
-ampath_data$sex_hsm1 <- ifelse(ampath_data$sex_hsm1 == "Male", 1, ifelse(ampath_data$sex_hsm1 == "Female", 0, NA))
-
 ```
 
 Cleaned Table for Binary Logistic Regression for Control Group
@@ -38,6 +34,7 @@ controlgroup<- ampath_data %>%
 controlgroup <- na.omit(controlgroup)
 controlgroup_new <- controlgroup[-c(1, 3:4)]
 ```
+
 Summary of Binary Logistic Regression for Control Group
 ```{r}
 logit_1 <- glm(droppedout~., family = binomial,data = controlgroup_new)
@@ -64,11 +61,16 @@ logit_3 <- glm(droppedout~., family = binomial,data = ampath_data_new)
 summary(logit_3)
 ```
 
+```{r}
+library(stargazer)
+stargazer(logit_1, logit_2, type="latex")
+```
 
 Stepwise Regression for Control Group 
 ```{r}
 logit_4 <- stepAIC(logit_1)
 ```
+
 ```{r}
 summary(logit_4)
 ```
