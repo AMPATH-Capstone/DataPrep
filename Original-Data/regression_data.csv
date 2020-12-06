@@ -1,798 +1,798 @@
-study_id,droppedout,redcap_event_name,participant_arm,number_of_hsm,sex_hsm1,ageyrs_hsm1,marital_status_hsm1,highest_school_level_hsm1,work_hrs_hsm1,income_earned_hsm1
-C035,1,Initial,Control,2,Female,30,Separated,Tertiary/Vocational,60,12000
-C049,1,Initial,Control,5,Male,23,Married,P1-P8,42,0
-C158,1,Initial,Control,5,Female,45,Widowed,P1-P8,48,1000
-C196,1,Initial,Control,4,Female,37,Married,No school,40,1500
-I009,1,Initial,Intervention,4,Female,38,Widowed,P1-P8,60,14000
-I017,1,Initial,Intervention,3,Male,57,Widowed,S1-S4,48,2000
-I021,1,Initial,Intervention,5,Female,50,Married,P1-P8,36,3000
-I025,1,Initial,Intervention,6,Male,54,Married,P1-P8,48,14000
-I029,1,Initial,Intervention,5,Female,45,Widowed,S1-S4,42,4000
-I033,1,Initial,Intervention,6,Female,41,Married,P1-P8,60,10000
-I035,1,Initial,Intervention,1,Female,67,Widowed,No school,28,600
-I051,1,Initial,Intervention,5,Female,27,Married,P1-P8,63,7995
-I054,1,Initial,Intervention,6,Male,40,Married,No school,48,2500
-I070,1,Initial,Intervention,3,Female,29,Married,No school,56,6000
-I071,1,Initial,Intervention,4,Female,46,Separated,No school,49,15000
-I073,1,Initial,Intervention,5,Female,31,Married,No school,40,9000
-I075,1,Initial,Intervention,2,Female,32,Married,No school,48,0
-I093,1,Initial,Intervention,4,Female,53,Separated,S1-S4,52,4800
-I098,1,Initial,Intervention,4,Female,32,Married,P1-P8,40,3000
-I103,1,Initial,Intervention,4,Female,33,Married,P1-P8,40,7000
-I108,1,Initial,Intervention,3,Female,47,Widowed,S1-S4,42,7000
-I115,1,Initial,Intervention,5,Male,42,Married,S1-S4,78,20000
-I122,1,Initial,Intervention,7,Female,46,Widowed,P1-P8,40,10000
-I126,1,Initial,Intervention,7,Female,48,Widowed,No school,48,1000
-I143,1,Initial,Intervention,8,Female,31,Separated,P1-P8,60,1000
-I146,1,Initial,Intervention,4,Female,53,Divorced,No school,40,7000
-I154,1,Initial,Intervention,1,Female,54,Separated,S1-S4,70,10920
-I160,1,Initial,Intervention,2,Female,42,Widowed,P1-P8,6,12000
-I186,1,Initial,Intervention,3,Female,26,Married,No school,40,3000
-I187,1,Initial,Intervention,3,Female,65,Widowed,No school,36,0
-I188,1,Initial,Intervention,2,Male,35,Separated,P1-P8,66,4000
-I189,1,Initial,Intervention,2,Female,29,Married,No school,48,1000
-I201,1,Initial,Intervention,6,Female,40,Married,P1-P8,0,3000
-I217,1,Initial,Intervention,3,Female,38,Married,No school,56,10000
-I229,1,Initial,Intervention,4,Female,60,Widowed,No school,40,3500
-I236,1,Initial,Intervention,7,Female,39,Married,No school,40,4000
-I238,1,Initial,Intervention,6,Female,58,Widowed,No school,40,3000
-I249,1,Initial,Intervention,2,Female,26,Separated,S1-S4,40,3500
-I250,1,Initial,Intervention,2,Female,27,Separated,S1-S4,40,5000
-I252,1,Initial,Intervention,6,Male,33,Married,No school,40,6000
-I265,1,Initial,Intervention,4,Male,35,Married,University,30,20000
-I269,1,Initial,Intervention,3,Female,25,Married,No school,36,2000
-I273,1,Initial,Intervention,1,Female,33,Never married,S1-S4,40,10000
-C001,0,Initial,Control,3,Female,50,Married,P1-P8,72,5000
-C001,0,Month 12,Control,3,,51,,,60,2400
-C002,0,Initial,Control,6,Female,32,Married,P1-P8,48,4000
-C002,0,Month 12,Control,6,,33,,,56,14400
-C003,0,Initial,Control,4,Female,43,Married,P1-P8,50,41000
-C003,0,Month 12,Control,2,,44,,,50,0
-C004,0,Initial,Control,5,Female,68,Married,No school,72,6000
-C004,0,Month 12,Control,5,,69,,,20,0
-C005,0,Initial,Control,4,Female,36,Married,No school,3,850
-C005,0,Month 12,Control,4,,37,,,15,800
-C006,0,Initial,Control,2,Female,33,Separated,S1-S4,40,9000
-C006,0,Month 12,Control,2,,34,,,40,7000
-C007,0,Initial,Control,4,Female,57,Widowed,No school,12,200
-C007,0,Month 12,Control,4,,58,,,48,200
-C009,0,Initial,Control,4,Female,35,Married,P1-P8,40,5000
-C009,0,Month 12,Control,4,,36,,,48,1000
-C010,0,Initial,Control,5,Female,63,Widowed,P1-P8,40,0
-C010,0,Month 12,Control,4,,64,,,0,3000
-C011,0,Initial,Control,3,Male,53,Married,S1-S4,52,10000
-C011,0,Month 12,Control,3,,54,,,63,12000
-C012,0,Initial,Control,6,Female,58,Widowed,P1-P8,40,5000
-C012,0,Month 12,Control,6,,59,,,56,4000
-C013,0,Initial,Control,2,Female,55,Widowed,No school,46,900
-C013,0,Month 12,Control,2,,56,,,50,1600
-C014,0,Initial,Control,8,Male,64,Widowed,P1-P8,28,8400
-C014,0,Month 12,Control,7,,65,,,48,36000
-C015,0,Initial,Control,4,Male,35,Married,P1-P8,40,8000
-C015,0,Month 12,Control,4,,36,,,40,8000
-C016,0,Initial,Control,3,Female,28,Widowed,P1-P8,47,15000
-C016,0,Month 12,Control,3,,29,,,48,1700
-C017,0,Initial,Control,1,Male,25,Never married,S1-S4,48,20000
-C017,0,Month 12,Control,1,,26,,,48,9600
-C018,0,Initial,Control,3,Female,35,Separated,S1-S4,36,3000
-C018,0,Month 12,Control,3,,36,,,48,7000
-C019,0,Initial,Control,5,Female,41,Divorced,S1-S4,25,800
-C019,0,Month 12,Control,5,,42,,,42,5000
-C020,0,Initial,Control,7,Female,42,Widowed,S1-S4,30,600
-C020,0,Month 12,Control,5,,43,,,30,600
-C021,0,Initial,Control,3,Female,56,Widowed,No school,40,4500
-C021,0,Month 12,Control,3,,57,,,40,8000
-C022,0,Initial,Control,10,Female,49,Married,No school,48,3000
-C022,0,Month 12,Control,10,,50,,,48,3000
-C023,0,Initial,Control,4,Female,51,Widowed,P1-P8,30,3000
-C023,0,Month 12,Control,4,,52,,,30,3000
-C025,0,Initial,Control,8,Female,55,Married,S1-S4,40,40000
-C025,0,Month 12,Control,5,,56,,,56,10000
-C026,0,Initial,Control,1,Male,40,Married,University,40,30000
-C026,0,Month 12,Control,1,,41,,,56,30000
-C027,0,Initial,Control,2,Female,47,Never married,P1-P8,36,4000
-C027,0,Month 12,Control,2,,48,,,36,4000
-C029,0,Initial,Control,5,Female,69,Divorced,S1-S4,36,3600
-C029,0,Month 12,Control,5,,70,,,36,3600
-C030,0,Initial,Control,2,Female,42,Widowed,S1-S4,48,14000
-C030,0,Month 12,Control,2,,44,,,48,300
-C032,0,Initial,Control,3,Female,50,Never married,S1-S4,48,2000
-C032,0,Month 12,Control,3,,51,,,48,4000
-C033,0,Initial,Control,3,Female,39,Married,P1-P8,60,100000
-C033,0,Month 12,Control,3,,40,,,48,120000
-C034,0,Initial,Control,4,Male,53,Married,S1-S4,52,10000
-C034,0,Month 12,Control,4,,54,,,63,13000
-C036,0,Initial,Control,3,Female,38,Widowed,S1-S4,38,4000
-C036,0,Month 12,Control,3,,39,,,38,4000
-C037,0,Initial,Control,2,Male,48,Widowed,P1-P8,42,3000
-C037,0,Month 12,Control,2,,49,,,55,3000
-C038,0,Initial,Control,3,Female,34,Widowed,P1-P8,56,4200
-C038,0,Month 12,Control,3,,35,,,56,2500
-C039,0,Initial,Control,5,Female,49,Never married,No school,30,7000
-C039,0,Month 12,Control,2,,50,,,60,15000
-C040,0,Initial,Control,2,Female,45,Separated,P1-P8,84,3000
-C040,0,Month 12,Control,2,,46,,,80,2400
-C041,0,Initial,Control,3,Male,38,Widowed,S1-S4,40,8000
-C041,0,Month 12,Control,3,,39,,,40,4000
-C042,0,Initial,Control,3,Female,40,Widowed,S1-S4,66,8000
-C042,0,Month 12,Control,3,,41,,,40,2000
-C043,0,Initial,Control,1,Female,52,Widowed,P1-P8,36,5000
-C043,0,Month 12,Control,1,,53,,,42,2700
-C045,0,Initial,Control,3,Female,50,Married,S1-S4,36,6000
-C045,0,Month 12,Control,3,,51,,,43,18000
-C046,0,Initial,Control,3,Female,31,Married,P1-P8,40,2000
-C046,0,Month 12,Control,3,,32,,,40,0
-C047,0,Initial,Control,3,Male,36,Never married,University,60,20000
-C047,0,Month 12,Control,1,,37,,,72,25000
-C048,0,Initial,Control,3,Female,37,Married,S1-S4,40,4000
-C048,0,Month 12,Control,3,,38,,,40,4000
-C051,0,Initial,Control,6,Female,38,Separated,S1-S4,77,15000
-C051,0,Month 12,Control,2,,39,,,77,15000
-C052,0,Initial,Control,6,Female,39,Married,S1-S4,24,12000
-C052,0,Month 12,Control,6,,40,,,24,12000
-C053,0,Initial,Control,7,Female,37,Married,P1-P8,36,150
-C053,0,Month 12,Control,7,,38,,,48,200
-C054,0,Initial,Control,4,Female,33,Married,S1-S4,48,6000
-C054,0,Month 12,Control,4,,34,,,52,7000
-C057,0,Initial,Control,6,Female,55,Widowed,S1-S4,36,1400
-C057,0,Month 12,Control,6,,56,,,36,4000
-C059,0,Initial,Control,5,Female,52,Widowed,P1-P8,20,4000
-C059,0,Month 12,Control,3,,53,,,36,2000
-C060,0,Initial,Control,3,Female,69,Widowed,No school,24,6000
-C060,0,Month 12,Control,2,,70,,,24,5000
-C061,0,Initial,Control,9,Female,45,Widowed,P1-P8,30,4000
-C061,0,Month 12,Control,8,,46,,,30,4000
-C062,0,Initial,Control,4,Female,43,Married,P1-P8,60,7200
-C062,0,Month 12,Control,4,,44,,,56,7500
-C063,0,Initial,Control,5,Female,48,Married,P1-P8,40,5000
-C063,0,Month 12,Control,2,,49,,,48,4500
-C064,0,Initial,Control,6,Female,50,Widowed,S1-S4,48,500
-C064,0,Month 12,Control,4,,51,,,48,700
-C066,0,Initial,Control,10,Female,43,Married,S1-S4,84,6000
-C066,0,Month 12,Control,7,,44,,,70,3000
-C067,0,Initial,Control,5,Female,26,Married,P1-P8,60,72000
-C067,0,Month 12,Control,5,,27,,,56,1000
-C068,0,Initial,Control,5,Female,50,Widowed,P1-P8,36,0
-C068,0,Month 12,Control,5,,51,,,36,8000
-C069,0,Initial,Control,6,Female,47,Widowed,No school,40,4000
-C069,0,Month 12,Control,6,,48,,,48,3000
-C070,0,Initial,Control,3,Female,40,Widowed,No school,0,0
-C070,0,Month 12,Control,3,,41,,,35,3000
-C071,0,Initial,Control,5,Female,56,Married,S1-S4,56,12000
-C071,0,Month 12,Control,2,,57,,,52,10000
-C073,0,Initial,Control,2,Female,29,Never married,P1-P8,41,3200
-C073,0,Month 12,Control,2,,30,,,52,4800
-C074,0,Initial,Control,8,Female,57,Widowed,S1-S4,40,2000
-C074,0,Month 12,Control,3,,58,,,40,3000
-C077,0,Initial,Control,3,Female,29,Separated,S1-S4,40,6000
-C077,0,Month 12,Control,2,,30,,,40,4800
-C078,0,Initial,Control,6,Female,52,Widowed,P1-P8,40,2000
-C078,0,Month 12,Control,4,,53,,,40,2000
-C079,0,Initial,Control,3,Female,35,Separated,No school,48,7200
-C079,0,Month 12,Control,1,,36,,,48,4000
-C080,0,Initial,Control,7,Female,44,Married,P1-P8,40,25000
-C080,0,Month 12,Control,7,,45,,,56,20000
-C082,0,Initial,Control,5,Female,33,Widowed,No school,30,5000
-C082,0,Month 12,Control,5,,34,,,30,5000
-C084,0,Initial,Control,4,Female,49,Widowed,P1-P8,40,6000
-C084,0,Month 12,Control,4,,50,,,56,4000
-C087,0,Initial,Control,5,Female,46,Separated,S1-S4,45,3000
-C087,0,Month 12,Control,5,,47,,,40,3000
-C088,0,Initial,Control,4,Female,51,Separated,No school,48,3000
-C088,0,Month 12,Control,3,,52,,,56,4000
-C089,0,Initial,Control,6,Female,20,Separated,No school,40,3500
-C089,0,Month 12,Control,3,,21,,,40,3500
-C090,0,Initial,Control,10,Male,47,Married,P1-P8,48,2000
-C090,0,Month 12,Control,5,,48,,,48,2300
-C091,0,Initial,Control,3,Female,42,Married,No school,63,6000
-C091,0,Month 12,Control,3,,43,,,56,11200
-C093,0,Initial,Control,1,Male,29,Never married,No school,63,6000
-C093,0,Month 12,Control,1,,30,,,40,6000
-C094,0,Initial,Control,3,Female,53,Married,P1-P8,40,2000
-C094,0,Month 12,Control,3,,54,,,40,4000
-C095,0,Initial,Control,4,Female,46,Married,Tertiary/Vocational,25,5000
-C095,0,Month 12,Control,3,,47,,,25,5000
-C096,0,Initial,Control,3,Female,31,Separated,No school,60,24000
-C096,0,Month 12,Control,3,,32,,,48,40000
-C097,0,Initial,Control,6,Female,32,Married,P1-P8,36,3000
-C097,0,Month 12,Control,6,,33,,,63,3000
-C098,0,Initial,Control,4,Male,39,Separated,No school,48,6200
-C098,0,Month 12,Control,1,,40,,,48,4000
-C099,0,Initial,Control,4,Female,30,Married,S1-S4,42,0
-C099,0,Month 12,Control,4,,31,,,42,2400
-C100,0,Initial,Control,4,Female,51,Widowed,No school,48,10000
-C100,0,Month 12,Control,2,,52,,,42,4800
-C101,0,Initial,Control,6,Male,58,Married,No school,72,7000
-C101,0,Month 12,Control,6,,59,,No school,59,7000
-C102,0,Initial,Control,5,Female,38,Married,No school,40,5000
-C102,0,Month 12,Control,4,,39,,,56,5000
-C103,0,Initial,Control,7,Female,54,Married,No school,72,11000
-C103,0,Month 12,Control,6,,55,,,60,1100
-C104,0,Initial,Control,3,Female,65,Widowed,No school,20,0
-C104,0,Month 12,Control,3,,66,,,36,0
-C105,0,Initial,Control,7,Female,38,Married,No school,35,1200
-C105,0,Month 12,Control,7,,39,,,42,4000
-C106,0,Initial,Control,14,Female,49,Married,No school,24,1500
-C106,0,Month 12,Control,10,,50,,,24,1500
-C107,0,Initial,Control,3,Female,64,Widowed,No school,40,3000
-C107,0,Month 12,Control,3,,65,,,20,0
-C112,0,Initial,Control,5,Female,50,Separated,No school,42,9000
-C112,0,Month 12,Control,2,,51,,,56,15000
-C114,0,Initial,Control,6,Male,39,Married,P1-P8,40,9000
-C114,0,Month 12,Control,6,,40,,,46,9000
-C116,0,Initial,Control,8,Female,48,Married,No school,45,15000
-C116,0,Month 12,Control,4,,49,,,46,10000
-C117,0,Initial,Control,4,Male,40,Married,No school,40,6000
-C117,0,Month 12,Control,4,,41,,,40,5000
-C118,0,Initial,Control,3,Female,38,Widowed,P1-P8,48,2000
-C118,0,Month 12,Control,3,,39,,,56,3000
-C119,0,Initial,Control,4,Male,48,Married,P1-P8,40,6000
-C119,0,Month 12,Control,4,,49,,,40,6000
-C121,0,Initial,Control,5,Female,57,Married,No school,40,4000
-C121,0,Month 12,Control,5,,58,,,56,3000
-C122,0,Initial,Control,7,Female,42,Separated,P1-P8,48,200
-C122,0,Month 12,Control,5,,43,,,48,2000
-C125,0,Initial,Control,5,Female,28,Married,P1-P8,48,12000
-C125,0,Month 12,Control,5,,29,,,48,12000
-C126,0,Initial,Control,4,Female,55,Widowed,No school,48,0
-C126,0,Month 12,Control,1,,56,,,48,0
-C129,0,Initial,Control,7,Female,52,Married,P1-P8,63,1400
-C129,0,Month 12,Control,6,,53,,,60,3000
-C130,0,Initial,Control,2,Female,30,Widowed,No school,48,3000
-C130,0,Month 12,Control,2,,31,,,56,3000
-C131,0,Initial,Control,6,Female,44,Married,S1-S4,48,4800
-C131,0,Month 12,Control,6,,45,,,56,2000
-C132,0,Initial,Control,5,Female,51,Widowed,No school,45,3000
-C132,0,Month 12,Control,5,,52,,,45,3000
-C134,0,Initial,Control,7,Female,37,Married,No school,48,1500
-C134,0,Month 12,Control,6,,38,,,48,4000
-C135,0,Initial,Control,4,Female,48,Married,No school,40,4000
-C135,0,Month 12,Control,4,,49,,,51,3800
-C136,0,Initial,Control,8,Female,58,Widowed,P1-P8,69,1000
-C136,0,Month 12,Control,6,,59,,,0,0
-C137,0,Initial,Control,1,Male,52,Married,S1-S4,40,15000
-C137,0,Month 12,Control,1,,53,,,46,15000
-C138,0,Initial,Control,5,Male,54,Separated,P1-P8,54,2400
-C138,0,Month 12,Control,5,,55,,,54,25000
-C139,0,Initial,Control,2,Female,48,Widowed,No school,36,3000
-C139,0,Month 12,Control,1,,49,,,41,3100
-C141,0,Initial,Control,6,Male,40,Married,No school,72,5000
-C141,0,Month 12,Control,6,,41,,,72,5000
-C142,0,Initial,Control,2,Female,46,Married,No school,40,1000
-C142,0,Month 12,Control,2,,47,,,40,6000
-C143,0,Initial,Control,4,Female,66,Widowed,No school,72,5600
-C143,0,Month 12,Control,3,,67,,,56,5000
-C144,0,Initial,Control,2,Female,56,Widowed,P1-P8,15,4000
-C144,0,Month 12,Control,2,,57,,,36,2500
-C145,0,Initial,Control,8,Male,45,Married,P1-P8,48,5000
-C145,0,Month 12,Control,8,,46,,,42,4500
-C147,0,Initial,Control,7,Male,64,Married,P1-P8,48,3000
-C147,0,Month 12,Control,6,,65,,,48,2000
-C148,0,Initial,Control,5,Female,49,Married,S1-S4,40,10000
-C148,0,Month 12,Control,5,,50,,,40,10000
-C149,0,Initial,Control,3,Female,43,Separated,S1-S4,66,10000
-C149,0,Month 12,Control,3,,44,,,63,10000
-C150,0,Initial,Control,3,Female,36,Separated,P1-P8,40,6000
-C150,0,Month 12,Control,3,,37,,,42,2000
-C151,0,Initial,Control,5,Female,45,Widowed,No school,48,3000
-C151,0,Month 12,Control,5,,46,,,48,3000
-C152,0,Initial,Control,6,Female,28,Never married,No school,36,0
-C152,0,Month 12,Control,6,,29,,,36,0
-C153,0,Initial,Control,4,Female,55,Married,No school,56,2000
-C153,0,Month 12,Control,4,,56,,,58,1800
-C155,0,Initial,Control,4,Female,42,Widowed,P1-P8,48,12000
-C155,0,Month 12,Control,4,,43,,,56,4000
-C159,0,Initial,Control,5,Female,35,Married,No school,48,2000
-C159,0,Month 12,Control,5,,36,,,48,2000
-C160,0,Initial,Control,5,Female,40,Widowed,No school,40,3500
-C160,0,Month 12,Control,5,,41,,,56,4500
-C161,0,Initial,Control,2,Female,38,Married,No school,40,3000
-C161,0,Month 12,Control,1,,39,,,44,2400
-C162,0,Initial,Control,5,Female,47,Widowed,No school,48,2400
-C162,0,Month 12,Control,5,,48,,,50,25000
-C163,0,Initial,Control,5,Female,48,Married,No school,40,3500
-C163,0,Month 12,Control,5,,49,,,40,2500
-C164,0,Initial,Control,4,Female,39,Married,No school,36,500
-C164,0,Month 12,Control,4,,40,,,58,4000
-C166,0,Initial,Control,6,Female,52,Separated,P1-P8,48,2400
-C166,0,Month 12,Control,6,,53,,,58,3000
-C167,0,Initial,Control,4,Male,33,Married,University,40,100000
-C167,0,Month 12,Control,3,,34,,,48,100000
-C168,0,Initial,Control,7,Male,47,Married,No school,54,7200
-C168,0,Month 12,Control,7,,48,,,54,5000
-C169,0,Initial,Control,1,Male,41,Separated,Tertiary/Vocational,40,3000
-C169,0,Month 12,Control,1,,42,,,48,2000
-C170,0,Initial,Control,1,Male,31,Widowed,P1-P8,78,7200
-C170,0,Month 12,Control,1,,32,,,72,7000
-C171,0,Initial,Control,4,Female,60,Married,No school,48,12000
-C171,0,Month 12,Control,4,,61,,,56,8000
-C172,0,Initial,Control,5,Female,29,Separated,P1-P8,40,8000
-C172,0,Month 12,Control,3,,30,,,72,18000
-C173,0,Initial,Control,3,Female,46,Widowed,Tertiary/Vocational,40,24000
-C173,0,Month 12,Control,2,,47,,,40,21000
-C174,0,Initial,Control,4,Male,63,Married,P1-P8,40,3000
-C174,0,Month 12,Control,3,,64,,,56,5000
-C175,0,Initial,Control,10,Male,43,Married,S1-S4,72,15000
-C175,0,Month 12,Control,8,,44,,,42,5000
-C176,0,Initial,Control,4,Female,37,Married,No school,48,2000
-C176,0,Month 12,Control,4,,38,,,44,2000
-C177,0,Initial,Control,1,Male,54,Separated,P1-P8,40,9000
-C177,0,Month 12,Control,1,,55,,,60,9000
-C179,0,Initial,Control,6,Female,62,Widowed,No school,36,2000
-C179,0,Month 12,Control,6,,63,,,30,2500
-C182,0,Initial,Control,6,Male,37,Married,No school,77,3500
-C182,0,Month 12,Control,6,,38,,,72,2500
-C183,0,Initial,Control,3,Female,45,Widowed,No school,36,500
-C183,0,Month 12,Control,3,,46,,,38,800
-C184,0,Initial,Control,3,Female,54,Separated,S1-S4,40,3000
-C184,0,Month 12,Control,1,,55,,,40,3000
-C185,0,Initial,Control,3,Female,50,Separated,P1-P8,40,3000
-C185,0,Month 12,Control,3,,51,,,42,3000
-C186,0,Initial,Control,2,Female,54,Married,No school,40,0
-C186,0,Month 12,Control,2,,55,,,44,0
-C187,0,Initial,Control,4,Male,43,Married,University,48,5000
-C187,0,Month 12,Control,4,,44,,,60,9000
-C188,0,Initial,Control,5,Female,32,Married,No school,40,15000
-C188,0,Month 12,Control,5,,33,,,48,6000
-C189,0,Initial,Control,4,Female,50,Widowed,S1-S4,40,1500
-C189,0,Month 12,Control,3,,51,,,42,2000
-C192,0,Initial,Control,6,Female,49,Widowed,P1-P8,36,4000
-C192,0,Month 12,Control,6,,50,,,36,4000
-C194,0,Initial,Control,6,Female,43,Separated,No school,72,4500
-C194,0,Month 12,Control,5,,44,,,63,4000
-C195,0,Initial,Control,5,Female,29,Widowed,P1-P8,48,2000
-C195,0,Month 12,Control,4,,30,,,48,2000
-C197,0,Initial,Control,2,Female,47,Separated,P1-P8,12,500
-C197,0,Month 12,Control,2,,48,,,21,10000
-C198,0,Initial,Control,1,Male,28,Separated,P1-P8,72,140000
-C198,0,Month 12,Control,1,,29,,,63,25000
-C199,0,Initial,Control,3,Female,40,Never married,S1-S4,40,4500
-C199,0,Month 12,Control,2,,41,,,40,3000
-C200,0,Initial,Control,3,Female,56,Widowed,No school,40,3500
-C200,0,Month 12,Control,3,,57,,,36,6000
-C201,0,Initial,Control,3,Female,45,Widowed,P1-P8,18,1200
-C201,0,Month 12,Control,3,,46,,,20,1200
-C202,0,Initial,Control,4,Female,43,Married,S1-S4,40,3000
-C202,0,Month 12,Control,4,,44,,,46,5000
-C203,0,Initial,Control,4,Female,43,Widowed,No school,40,3000
-C203,0,Month 12,Control,4,,44,,,32,300
-C204,0,Initial,Control,5,Female,53,Divorced,No school,40,3000
-C204,0,Month 12,Control,5,,54,,,28,1000
-C206,0,Initial,Control,4,Female,26,Married,No school,40,3000
-C206,0,Month 12,Control,4,,27,,,56,15000
-C207,0,Initial,Control,9,Male,62,Married,Tertiary/Vocational,48,40000
-C207,0,Month 12,Control,9,,63,,,48,40000
-C208,0,Initial,Control,5,Female,60,Widowed,No school,40,3500
-C208,0,Month 12,Control,5,,61,,,35,3600
-C209,0,Initial,Control,5,Male,24,Never married,P1-P8,48,0
-C209,0,Month 12,Control,5,,25,,,50,20000
-C210,0,Initial,Control,4,Female,61,Widowed,P1-P8,46,10000
-C210,0,Month 12,Control,4,,62,,,46,15000
-C211,0,Initial,Control,4,Female,50,Widowed,P1-P8,52,450
-C211,0,Month 12,Control,4,,51,,,52,3000
-C212,0,Initial,Control,3,Female,57,Widowed,No school,24,1000
-C212,0,Month 12,Control,3,,58,,,18,500
-C213,0,Initial,Control,4,Female,27,Married,P1-P8,36,1000
-C213,0,Month 12,Control,4,,28,,,40,2000
-C215,0,Initial,Control,7,Female,49,Widowed,No school,48,500
-C215,0,Month 12,Control,7,,50,,,48,500
-C216,0,Initial,Control,7,Female,55,Widowed,P1-P8,60,4000
-C216,0,Month 12,Control,7,,56,,,58,3500
-C217,0,Initial,Control,7,Female,40,Married,No school,40,3000
-C217,0,Month 12,Control,7,,41,,,46,3000
-C218,0,Initial,Control,3,Female,29,Separated,No school,24,3000
-C218,0,Month 12,Control,3,,30,,,30,4500
-C219,0,Initial,Control,5,Male,42,Separated,No school,60,7200
-C219,0,Month 12,Control,3,,43,,,60,7200
-C220,0,Initial,Control,13,Male,39,Married,No school,60,7200
-C220,0,Month 12,Control,13,,40,,,60,10000
-C221,0,Initial,Control,4,Female,38,Separated,No school,42,3000
-C221,0,Month 12,Control,4,,39,,,42,2000
-C222,0,Initial,Control,4,Female,42,Married,S1-S4,48,7000
-C222,0,Month 12,Control,4,,43,,,48,22000
-C223,0,Initial,Control,6,Female,42,Married,No school,56,5000
-C223,0,Month 12,Control,5,Female,43,,,12,0
-C225,0,Initial,Control,1,Male,48,Separated,No school,42,2500
-C225,0,Month 12,Control,1,,49,,,50,4500
-C226,0,Initial,Control,3,Female,54,Widowed,P1-P8,18,500
-C226,0,Month 12,Control,3,,55,,,22,0
-C228,0,Initial,Control,5,Female,42,Married,P1-P8,40,3500
-C228,0,Month 12,Control,4,,43,,,36,2000
-C229,0,Initial,Control,6,Female,57,Widowed,No school,24,500
-C229,0,Month 12,Control,6,,58,,,30,4500
-C230,0,Initial,Control,5,Female,62,Widowed,S1-S4,40,3000
-C230,0,Month 12,Control,5,,63,,,42,3500
-C231,0,Initial,Control,1,Male,45,Separated,P1-P8,40,1000
-C231,0,Month 12,Control,1,,46,,,56,50000
-C232,0,Initial,Control,5,Female,40,Married,P1-P8,40,10000
-C232,0,Month 12,Control,2,,41,,,72,35000
-C233,0,Initial,Control,6,Male,48,Married,S1-S4,25,20000
-C233,0,Month 12,Control,5,,43,,,12,0
-C234,0,Initial,Control,6,Female,34,Widowed,No school,42,2000
-C234,0,Month 12,Control,6,,35,,,56,2000
-C235,0,Initial,Control,6,Male,47,Married,No school,60,2400
-C235,0,Month 12,Control,6,,48,,,56,5000
-C237,0,Initial,Control,4,Female,49,Married,No school,48,2000
-C237,0,Month 12,Control,4,,50,,,48,8000
-C238,0,Initial,Control,6,Female,48,Widowed,S1-S4,72,15000
-C238,0,Month 12,Control,6,,49,,,80,13000
-C239,0,Initial,Control,7,Male,38,Married,No school,40,4000
-C239,0,Month 12,Control,7,,39,,,42,40000
-C240,0,Initial,Control,2,Female,46,Widowed,S1-S4,24,5000
-C240,0,Month 12,Control,1,,47,,,72,8000
-C241,0,Initial,Control,5,Male,48,Married,No school,40,7000
-C241,0,Month 12,Control,5,,49,,,40,7000
-C242,0,Initial,Control,5,Male,57,Married,S1-S4,36,13000
-C242,0,Month 12,Control,5,,58,,,56,32
-C243,0,Initial,Control,2,Male,30,Married,P1-P8,40,8000
-C243,0,Month 12,Control,2,,31,,,40,8000
-C244,0,Initial,Control,4,Female,48,Widowed,S1-S4,48,80000
-C244,0,Month 12,Control,4,,49,,,52,15000
-C245,0,Initial,Control,7,Male,49,Married,No school,40,2000
-C245,0,Month 12,Control,7,,50,,,40,2500
-C246,0,Initial,Control,5,Female,53,Married,P1-P8,48,4800
-C246,0,Month 12,Control,5,,54,,,56,5000
-C247,0,Initial,Control,4,Female,46,Widowed,No school,40,4500
-C247,0,Month 12,Control,4,,47,,,46,5000
-C248,0,Initial,Control,3,Male,54,Married,P1-P8,36,45000
-C248,0,Month 12,Control,3,,55,,,48,25000
-C249,0,Initial,Control,3,Female,50,Widowed,No school,30,2000
-C249,0,Month 12,Control,3,,51,,,34,3000
-C250,0,Initial,Control,4,Female,61,Widowed,No school,40,1500
-C250,0,Month 12,Control,4,,62,,,45,1800
-C251,0,Initial,Control,8,Female,53,Separated,No school,24,2000
-C251,0,Month 12,Control,8,,54,,,48,1000
-C252,0,Initial,Control,7,Male,48,Married,P1-P8,40,12000
-C252,0,Month 12,Control,7,,49,,,40,20000
-C253,0,Initial,Control,6,Female,54,Married,No school,42,3000
-C253,0,Month 12,Control,5,,55,,,56,3000
-C254,0,Initial,Control,4,Female,41,Widowed,No school,40,3500
-C254,0,Month 12,Control,4,,42,,,40,6000
-C255,0,Initial,Control,5,Male,61,Married,S1-S4,40,1000
-C255,0,Month 12,Control,5,,62,,,40,3000
-C258,0,Initial,Control,2,Female,43,Separated,No school,40,15000
-C258,0,Month 12,Control,2,,44,,,40,15000
-C259,0,Initial,Control,5,Female,30,Married,S1-S4,42,0
-C259,0,Month 12,Control,5,,31,,,48,30000
-C260,0,Initial,Control,3,Female,50,Separated,No school,40,4000
-C260,0,Month 12,Control,3,,51,,,52,4500
-C261,0,Initial,Control,2,Female,30,Widowed,No school,40,3500
-C261,0,Month 12,Control,2,,31,,,48,4000
-C265,0,Initial,Control,6,Male,70,Married,No school,48,4800
-C265,0,Month 12,Control,6,,71,,,48,4800
-I003,0,Initial,Intervention,5,Female,62,Separated,S1-S4,5,3500
-I003,0,Month 12,Intervention,5,,63,,,32,5000
-I004,0,Initial,Intervention,4,Female,35,Never married,S1-S4,3,1600
-I004,0,Month 12,Intervention,4,,36,,,35,9000
-I005,0,Initial,Intervention,4,Female,48,Married,P1-P8,36,12000
-I005,0,Month 12,Intervention,3,,49,,,56,20000
-I006,0,Initial,Intervention,5,Female,43,Widowed,S1-S4,40,1000
-I006,0,Month 12,Intervention,3,,44,,,56,10000
-I007,0,Initial,Intervention,4,Female,49,Married,P1-P8,8,0
-I007,0,Month 12,Intervention,4,,50,,,38,6000
-I008,0,Initial,Intervention,6,Male,50,Married,S1-S4,42,8800
-I008,0,Month 12,Intervention,5,,51,,,42,9000
-I010,0,Initial,Intervention,5,Male,32,Married,No school,48,4500
-I010,0,Month 12,Intervention,5,,33,,,48,5000
-I011,0,Initial,Intervention,5,Male,32,Married,P1-P8,48,3000
-I011,0,Month 12,Intervention,5,,33,,,48,3000
-I012,0,Initial,Intervention,5,Female,69,Widowed,No school,4,500
-I012,0,Month 12,Intervention,5,,70,,,16,0
-I013,0,Initial,Intervention,6,Female,29,Married,No school,36,1500
-I013,0,Month 12,Intervention,6,,30,,,48,4000
-I014,0,Initial,Intervention,2,Female,56,Widowed,P1-P8,21,3000
-I014,0,Month 12,Intervention,2,,57,,,36,0
-I015,0,Initial,Intervention,2,Female,36,Separated,S1-S4,42,4800
-I015,0,Month 12,Intervention,2,,37,,,48,3000
-I016,0,Initial,Intervention,3,Female,55,Widowed,P1-P8,30,3000
-I016,0,Month 12,Intervention,3,,56,,,32,3500
-I019,0,Initial,Intervention,4,Female,23,Married,S1-S4,40,16000
-I019,0,Month 12,Intervention,4,,24,,,56,3600
-I020,0,Initial,Intervention,3,Male,50,Married,P1-P8,48,24000
-I020,0,Month 12,Intervention,2,,51,,,56,40000
-I022,0,Initial,Intervention,5,Female,42,Widowed,P1-P8,40,3000
-I022,0,Month 12,Intervention,4,,43,,,56,5000
-I023,0,Initial,Intervention,5,Female,35,Married,P1-P8,48,3000
-I023,0,Month 12,Intervention,5,,36,,,40,3000
-I024,0,Initial,Intervention,7,Female,30,Married,P1-P8,49,2800
-I024,0,Month 12,Intervention,7,,31,,,50,6000
-I026,0,Initial,Intervention,6,Male,65,Married,P1-P8,40,5000
-I026,0,Month 12,Intervention,4,,66,,,40,3000
-I027,0,Initial,Intervention,4,Male,35,Married,P1-P8,40,4500
-I027,0,Month 12,Intervention,4,,36,,,46,4500
-I030,0,Initial,Intervention,4,Female,43,Married,P1-P8,40,45000
-I030,0,Month 12,Intervention,4,,44,,,40,1700
-I034,0,Initial,Intervention,7,Male,72,Married,No school,28,5000
-I034,0,Month 12,Intervention,7,,73,,,32,5000
-I036,0,Initial,Intervention,4,Male,54,Widowed,P1-P8,40,3000
-I036,0,Month 12,Intervention,4,,55,,,52,3000
-I037,0,Initial,Intervention,5,Female,42,Married,P1-P8,21,1400
-I037,0,Month 12,Intervention,5,,43,,,30,10000
-I038,0,Initial,Intervention,5,Female,43,Widowed,P1-P8,56,4800
-I038,0,Month 12,Intervention,4,,44,,,48,3000
-I039,0,Initial,Intervention,8,Male,42,Married,P1-P8,48,12000
-I039,0,Month 12,Intervention,8,,43,,,52,15000
-I041,0,Initial,Intervention,4,Female,31,Widowed,P1-P8,72,8400
-I041,0,Month 12,Intervention,4,,32,,,70,8000
-I042,0,Initial,Intervention,1,Male,55,Separated,P1-P8,36,1400
-I042,0,Month 12,Intervention,1,,56,,,38,13000
-I045,0,Initial,Intervention,4,Female,69,Widowed,S1-S4,35,500
-I045,0,Month 12,Intervention,4,,70,,,30,2000
-I047,0,Initial,Intervention,5,Male,38,Married,S1-S4,36,4500
-I047,0,Month 12,Intervention,5,,39,,,36,4000
-I048,0,Initial,Intervention,10,Female,40,Married,P1-P8,49,5000
-I048,0,Month 12,Intervention,8,,41,,,56,4500
-I049,0,Initial,Intervention,7,Male,48,Married,S1-S4,40,3500
-I049,0,Month 12,Intervention,7,,49,,,40,5000
-I050,0,Initial,Intervention,5,Female,52,Married,P1-P8,48,2500
-I050,0,Month 12,Intervention,4,,53,,,48,3000
-I052,0,Initial,Intervention,5,Female,44,Married,P1-P8,35,4000
-I052,0,Month 12,Intervention,4,,45,,,36,4000
-I053,0,Initial,Intervention,6,Female,51,Widowed,P1-P8,40,6000
-I053,0,Month 12,Intervention,6,,52,,,40,20000
-I057,0,Initial,Intervention,4,Female,33,Separated,No school,66,20000
-I057,0,Month 12,Intervention,3,,34,,,63,8000
-I058,0,Initial,Intervention,5,Female,48,Married,No school,14,5000
-I058,0,Month 12,Intervention,5,,49,,,20,3000
-I061,0,Initial,Intervention,8,Female,43,Married,University,40,20000
-I061,0,Month 12,Intervention,7,,44,,,50,35000
-I062,0,Initial,Intervention,5,Female,62,Widowed,S1-S4,25,10000
-I062,0,Month 12,Intervention,5,,63,,,33,1000
-I064,0,Initial,Intervention,5,Female,57,Widowed,No school,21,6000
-I064,0,Month 12,Intervention,4,,58,,,20,2000
-I065,0,Initial,Intervention,5,Male,58,Married,P1-P8,40,10000
-I065,0,Month 12,Intervention,5,,59,,,40,5000
-I066,0,Initial,Intervention,1,Male,30,Separated,No school,60,500
-I066,0,Month 12,Intervention,1,,31,,,68,700
-I067,0,Initial,Intervention,6,Male,48,Married,S1-S4,40,15000
-I067,0,Month 12,Intervention,6,,49,,,42,15000
-I068,0,Initial,Intervention,5,Female,43,Widowed,P1-P8,40,3000
-I068,0,Month 12,Intervention,4,,44,,,52,6000
-I069,0,Initial,Intervention,7,Female,47,Never married,S1-S4,60,4000
-I069,0,Month 12,Intervention,6,,48,,,60,3000
-I074,0,Initial,Intervention,3,Male,59,Married,No school,24,13000
-I074,0,Month 12,Intervention,3,,60,,,36,17000
-I076,0,Initial,Intervention,3,Female,44,Separated,No school,40,4500
-I076,0,Month 12,Intervention,3,,45,,,50,6000
-I077,0,Initial,Intervention,3,Female,38,Separated,P1-P8,56,3000
-I077,0,Month 12,Intervention,3,,39,,,50,3000
-I078,0,Initial,Intervention,3,Female,37,Separated,P1-P8,48,9000
-I078,0,Month 12,Intervention,3,,38,,,48,6000
-I079,0,Initial,Intervention,5,Male,42,Widowed,No school,40,3000
-I079,0,Month 12,Intervention,5,,43,,,42,30000
-I080,0,Initial,Intervention,2,Female,56,Separated,No school,48,4500
-I080,0,Month 12,Intervention,1,,57,,,48,4500
-I082,0,Initial,Intervention,3,Female,53,Widowed,No school,66,3000
-I082,0,Month 12,Intervention,3,,54,,,63,10000
-I084,0,Initial,Intervention,4,Female,54,Widowed,P1-P8,40,500
-I084,0,Month 12,Intervention,4,,55,,,40,3000
-I085,0,Initial,Intervention,5,Female,32,Separated,No school,63,4800
-I085,0,Month 12,Intervention,5,,33,,,38,0
-I087,0,Initial,Intervention,3,Female,45,Married,S1-S4,48,10000
-I087,0,Month 12,Intervention,3,,46,,,52,7000
-I088,0,Initial,Intervention,4,Female,46,Widowed,No school,8,0
-I088,0,Month 12,Intervention,4,,47,,,6,0
-I091,0,Initial,Intervention,8,Female,43,Married,S1-S4,48,7200
-I091,0,Month 12,Intervention,8,,44,,,56,4000
-I094,0,Initial,Intervention,2,Female,57,Widowed,No school,25,10000
-I094,0,Month 12,Intervention,2,,58,,,32,5000
-I097,0,Initial,Intervention,3,Female,54,Widowed,Tertiary/Vocational,45,20000
-I097,0,Month 12,Intervention,3,,55,,,40,21000
-I100,0,Initial,Intervention,8,Female,51,Married,No school,40,3000
-I100,0,Month 12,Intervention,8,,52,,,56,9000
-I101,0,Initial,Intervention,8,Female,58,Widowed,Tertiary/Vocational,45,3000
-I101,0,Month 12,Intervention,8,,59,,,45,2000
-I104,0,Initial,Intervention,2,Male,46,Separated,No school,40,6000
-I104,0,Month 12,Intervention,2,,47,,,40,3000
-I106,0,Initial,Intervention,3,Female,54,Widowed,No school,48,3000
-I106,0,Month 12,Intervention,3,,55,,,30,4000
-I107,0,Initial,Intervention,5,Female,49,Widowed,No school,48,300
-I107,0,Month 12,Intervention,4,,50,,,48,900
-I109,0,Initial,Intervention,5,Female,53,Widowed,No school,48,2400
-I109,0,Month 12,Intervention,4,,54,,,36,0
-I110,0,Initial,Intervention,9,Female,42,Married,No school,42,2000
-I110,0,Month 12,Intervention,8,,43,,,42,2000
-I111,0,Initial,Intervention,4,Female,33,Married,S1-S4,42,84000
-I111,0,Month 12,Intervention,4,,34,,,44,12000
-I114,0,Initial,Intervention,3,Female,51,Married,University,40,24000
-I114,0,Month 12,Intervention,2,,52,,,40,24000
-I116,0,Initial,Intervention,4,Female,38,Widowed,P1-P8,105,5000
-I116,0,Month 12,Intervention,3,,39,,,72,2500
-I117,0,Initial,Intervention,4,Female,55,Widowed,No school,48,1000
-I117,0,Month 12,Intervention,4,,56,,,40,600
-I118,0,Initial,Intervention,3,Female,61,Separated,S1-S4,40,3500
-I118,0,Month 12,Intervention,3,,62,,,40,4800
-I119,0,Initial,Intervention,5,Female,56,Married,P1-P8,30,7200
-I119,0,Month 12,Intervention,5,,57,,,49,7200
-I120,0,Initial,Intervention,2,Female,56,Widowed,No school,48,3000
-I120,0,Month 12,Intervention,2,,57,,,48,2500
-I121,0,Initial,Intervention,5,Male,48,Married,P1-P8,72,6000
-I121,0,Month 12,Intervention,5,,49,,,64,3000
-I125,0,Initial,Intervention,8,Female,44,Widowed,Tertiary/Vocational,54,10000
-I125,0,Month 12,Intervention,8,,45,,,54,5000
-I127,0,Initial,Intervention,5,Male,49,Married,No school,40,14000
-I127,0,Month 12,Intervention,5,,50,,,56,18000
-I128,0,Initial,Intervention,7,Male,57,Married,No school,40,4500
-I128,0,Month 12,Intervention,7,,58,,,40,5600
-I130,0,Initial,Intervention,2,Male,72,Widowed,No school,7,350
-I130,0,Month 12,Intervention,2,,73,,,14,2000
-I131,0,Initial,Intervention,2,Female,42,Separated,S1-S4,40,15000
-I131,0,Month 12,Intervention,2,,43,,,40,15000
-I133,0,Initial,Intervention,4,Female,42,Widowed,P1-P8,40,10000
-I133,0,Month 12,Intervention,4,,43,,,72,5000
-I135,0,Initial,Intervention,7,Female,40,Separated,No school,60,6000
-I135,0,Month 12,Intervention,4,,41,,,63,6000
-I136,0,Initial,Intervention,3,Female,50,Widowed,P1-P8,40,3000
-I136,0,Month 12,Intervention,3,,51,,,48,10000
-I137,0,Initial,Intervention,1,Female,50,Widowed,No school,40,50000
-I137,0,Month 12,Intervention,1,,51,,,40,4000
-I138,0,Initial,Intervention,2,Female,32,Married,P1-P8,105,3500
-I138,0,Month 12,Intervention,2,,33,,,108,20000
-I139,0,Initial,Intervention,3,Female,58,Widowed,P1-P8,40,6000
-I139,0,Month 12,Intervention,3,,59,,,42,3500
-I141,0,Initial,Intervention,4,Female,50,Widowed,No school,40,5000
-I141,0,Month 12,Intervention,4,,51,,,56,5000
-I142,0,Initial,Intervention,5,Female,33,Widowed,P1-P8,40,18000
-I142,0,Month 12,Intervention,5,,34,,,70,22000
-I144,0,Initial,Intervention,1,Female,51,Widowed,No school,36,3000
-I144,0,Month 12,Intervention,1,,52,,,40,1000
-I147,0,Initial,Intervention,6,Female,51,Widowed,P1-P8,46,2400
-I147,0,Month 12,Intervention,4,,52,,,52,6000
-I149,0,Initial,Intervention,6,Male,55,Married,No school,40,4000
-I149,0,Month 12,Intervention,6,,56,,,40,2000
-I150,0,Initial,Intervention,4,Female,68,Never married,No school,30,2000
-I150,0,Month 12,Intervention,2,,69,Married,,24,2000
-I151,0,Initial,Intervention,1,Female,26,Separated,No school,6,7000
-I151,0,Month 12,Intervention,1,,27,,,48,1000
-I152,0,Initial,Intervention,2,Male,32,Never married,No school,60,4000
-I152,0,Month 12,Intervention,2,,33,,,63,3500
-I153,0,Initial,Intervention,4,Female,37,Married,S1-S4,40,2000
-I153,0,Month 12,Intervention,4,,38,,,45,2000
-I155,0,Initial,Intervention,7,Female,48,Married,S1-S4,48,1000
-I155,0,Month 12,Intervention,6,,49,,,42,9000
-I156,0,Initial,Intervention,6,Female,40,Separated,No school,5,3000
-I156,0,Month 12,Intervention,6,,41,,,34,4000
-I157,0,Initial,Intervention,5,Female,48,Widowed,S1-S4,48,20000
-I157,0,Month 12,Intervention,4,,49,,,40,31000
-I159,0,Initial,Intervention,2,Female,66,Widowed,P1-P8,38,2500
-I159,0,Month 12,Intervention,2,,67,,,36,600
-I161,0,Initial,Intervention,5,Female,32,Married,S1-S4,40,8000
-I161,0,Month 12,Intervention,5,,33,,,46,13000
-I162,0,Initial,Intervention,5,Female,50,Married,No school,48,4000
-I162,0,Month 12,Intervention,2,,51,,,42,4800
-I163,0,Initial,Intervention,7,Female,47,Married,No school,42,0
-I163,0,Month 12,Intervention,7,,48,,,56,2000
-I164,0,Initial,Intervention,4,Female,43,Separated,S1-S4,24,2000
-I164,0,Month 12,Intervention,4,,44,,,22,900
-I165,0,Initial,Intervention,3,Female,34,Widowed,No school,40,2800
-I165,0,Month 12,Intervention,3,,35,,,4,2000
-I167,0,Initial,Intervention,3,Female,57,Widowed,No school,36,1000
-I167,0,Month 12,Intervention,3,,58,,,34,700
-I168,0,Initial,Intervention,2,Female,61,Widowed,No school,10,1500
-I168,0,Month 12,Intervention,1,,62,,,32,3000
-I169,0,Initial,Intervention,2,Female,40,Separated,No school,40,4000
-I169,0,Month 12,Intervention,2,,41,,,42,5000
-I170,0,Initial,Intervention,1,Male,52,Widowed,P1-P8,40,4500
-I170,0,Month 12,Intervention,1,,53,,,56,4800
-I171,0,Initial,Intervention,1,Female,67,Separated,No school,20,0
-I171,0,Month 12,Intervention,1,,68,,,18,0
-I172,0,Initial,Intervention,2,Female,48,Separated,No school,40,2500
-I172,0,Month 12,Intervention,2,,49,,,56,5000
-I173,0,Initial,Intervention,6,Male,46,Married,P1-P8,48,3000
-I173,0,Month 12,Intervention,6,,47,,,48,9000
-I175,0,Initial,Intervention,8,Female,48,Separated,No school,60,1000
-I175,0,Month 12,Intervention,8,,49,,,60,3000
-I176,0,Initial,Intervention,4,Female,36,Widowed,P1-P8,48,3000
-I176,0,Month 12,Intervention,4,,37,,,56,2000
-I178,0,Initial,Intervention,5,Female,32,Married,P1-P8,40,3500
-I178,0,Month 12,Intervention,5,,33,,,42,2000
-I180,0,Initial,Intervention,5,Female,58,Widowed,P1-P8,46,1000
-I180,0,Month 12,Intervention,5,,59,,,46,2000
-I183,0,Initial,Intervention,6,Female,39,Married,P1-P8,60,2000
-I183,0,Month 12,Intervention,6,,40,,,62,4000
-I190,0,Initial,Intervention,1,Female,51,Separated,P1-P8,24,0
-I190,0,Month 12,Intervention,1,,52,,,32,2000
-I191,0,Initial,Intervention,4,Female,39,Married,P1-P8,60,3000
-I191,0,Month 12,Intervention,4,,40,,,63,5000
-I192,0,Initial,Intervention,4,Female,51,Separated,No school,48,6000
-I192,0,Month 12,Intervention,4,,52,,,48,6000
-I194,0,Initial,Intervention,6,Female,50,Widowed,No school,42,2400
-I194,0,Month 12,Intervention,6,,51,,,40,2000
-I195,0,Initial,Intervention,7,Male,54,Married,No school,60,10000
-I195,0,Month 12,Intervention,7,,55,,,60,10000
-I196,0,Initial,Intervention,9,Female,48,Married,P1-P8,48,0
-I196,0,Month 12,Intervention,8,,49,,,56,1000
-I197,0,Initial,Intervention,5,Female,35,Married,No school,40,3500
-I197,0,Month 12,Intervention,4,,36,,,42,20000
-I198,0,Initial,Intervention,5,Female,55,Widowed,No school,36,2000
-I198,0,Month 12,Intervention,5,,56,,,38,2000
-I199,0,Initial,Intervention,5,Female,43,Married,P1-P8,72,8000
-I199,0,Month 12,Intervention,4,,44,,,68,8000
-I200,0,Initial,Intervention,5,Female,54,Widowed,No school,48,2000
-I200,0,Month 12,Intervention,5,,55,,,48,2000
-I202,0,Initial,Intervention,6,Female,44,Married,No school,25,500
-I202,0,Month 12,Intervention,6,,45,,,28,1000
-I204,0,Initial,Intervention,2,Female,35,Separated,S1-S4,36,0
-I204,0,Month 12,Intervention,2,,36,,,40,3000
-I207,0,Initial,Intervention,3,Female,32,Married,S1-S4,36,500
-I207,0,Month 12,Intervention,3,,33,,,42,0
-I208,0,Initial,Intervention,6,Female,25,Cohabitating,P1-P8,40,2500
-I208,0,Month 12,Intervention,6,,26,,,40,5000
-I209,0,Initial,Intervention,5,Male,58,Married,Tertiary/Vocational,50,28000
-I209,0,Month 12,Intervention,4,,59,,,52,39000
-I211,0,Initial,Intervention,4,Female,50,Widowed,No school,48,1000
-I211,0,Month 12,Intervention,4,,51,,,42,2300
-I213,0,Initial,Intervention,3,Female,50,Widowed,No school,36,3000
-I213,0,Month 12,Intervention,3,,51,,,36,3000
-I214,0,Initial,Intervention,5,Female,46,Widowed,No school,66,4800
-I214,0,Month 12,Intervention,5,,47,,,62,4800
-I215,0,Initial,Intervention,7,Female,36,Widowed,No school,48,1000
-I215,0,Month 12,Intervention,7,,37,,,48,6000
-I216,0,Initial,Intervention,3,Female,49,Separated,No school,40,10000
-I216,0,Month 12,Intervention,3,,50,,,40,8000
-I218,0,Initial,Intervention,3,Female,29,Married,S1-S4,40,7000
-I218,0,Month 12,Intervention,3,,30,,,40,8000
-I219,0,Initial,Intervention,4,Female,23,Separated,P1-P8,40,3000
-I219,0,Month 12,Intervention,4,,24,,,38,2100
-I220,0,Initial,Intervention,3,Male,32,Married,P1-P8,40,10000
-I220,0,Month 12,Intervention,3,,23,,,40,9000
-I221,0,Initial,Intervention,4,Male,49,Married,P1-P8,40,3500
-I221,0,Month 12,Intervention,4,,50,,,40,3500
-I222,0,Initial,Intervention,6,Male,38,Married,P1-P8,60,15000
-I222,0,Month 12,Intervention,5,,39,,,52,15000
-I223,0,Initial,Intervention,6,Female,47,Widowed,No school,66,10000
-I223,0,Month 12,Intervention,5,,48,,,63,9000
-I224,0,Initial,Intervention,6,Female,51,Widowed,No school,18,0
-I224,0,Month 12,Intervention,6,,52,,,18,0
-I225,0,Initial,Intervention,6,Male,40,Married,No school,78,5000
-I225,0,Month 12,Intervention,6,,41,,,78,4000
-I227,0,Initial,Intervention,2,Female,64,Separated,No school,48,0
-I227,0,Month 12,Intervention,1,,65,,,40,300
-I228,0,Initial,Intervention,2,Female,50,Widowed,P1-P8,48,2500
-I228,0,Month 12,Intervention,2,,51,,,40,4800
-I230,0,Initial,Intervention,6,Female,38,Married,No school,40,7000
-I230,0,Month 12,Intervention,6,,39,,,40,6000
-I232,0,Initial,Intervention,7,Female,38,Separated,P1-P8,36,1000
-I232,0,Month 12,Intervention,4,,39,,,38,2000
-I233,0,Initial,Intervention,4,Female,35,Cohabitating,No school,40,3000
-I233,0,Month 12,Intervention,4,,36,,,52,3500
-I234,0,Initial,Intervention,1,Male,55,Widowed,P1-P8,60,4000
-I234,0,Month 12,Intervention,1,,56,,,60,5000
-I235,0,Initial,Intervention,4,Female,49,Divorced,S1-S4,72,2000
-I235,0,Month 12,Intervention,4,,50,,,68,1000
-I237,0,Initial,Intervention,5,Female,59,Widowed,No school,60,2500
-I237,0,Month 12,Intervention,4,,60,,,60,1800
-I239,0,Initial,Intervention,4,Female,41,Widowed,No school,36,2000
-I239,0,Month 12,Intervention,4,,42,,,48,9000
-I240,0,Initial,Intervention,3,Male,29,Married,S1-S4,40,4000
-I240,0,Month 12,Intervention,3,,30,,,40,7000
-I241,0,Initial,Intervention,4,Female,28,Married,No school,40,8000
-I241,0,Month 12,Intervention,4,,29,,,48,0
-I242,0,Initial,Intervention,3,Male,46,Married,P1-P8,48,7500
-I242,0,Month 12,Intervention,3,,47,,,50,15000
-I243,0,Initial,Intervention,5,Female,65,Widowed,P1-P8,30,1000
-I243,0,Month 12,Intervention,5,,66,,,32,1200
-I246,0,Initial,Intervention,4,Female,45,Separated,No school,48,500
-I246,0,Month 12,Intervention,4,,46,,,48,1000
-I248,0,Initial,Intervention,4,Female,46,Never married,S1-S4,30,4000
-I248,0,Month 12,Intervention,4,,47,,,32,4000
-I253,0,Initial,Intervention,3,Female,43,Separated,No school,25,1000
-I253,0,Month 12,Intervention,3,,44,,,30,4000
-I256,0,Initial,Intervention,7,Female,54,Never married,Tertiary/Vocational,48,60000
-I256,0,Month 12,Intervention,5,,55,,,48,60000
-I257,0,Initial,Intervention,7,Male,48,Married,No school,40,3500
-I257,0,Month 12,Intervention,7,,49,,,40,4000
-I259,0,Initial,Intervention,2,Female,62,Widowed,No school,42,3000
-I259,0,Month 12,Intervention,2,,63,,,48,4000
-I260,0,Initial,Intervention,6,Female,42,Married,No school,72,3000
-I260,0,Month 12,Intervention,6,,43,,,63,3500
-I261,0,Initial,Intervention,2,Female,59,Widowed,S1-S4,24,200
-I261,0,Month 12,Intervention,2,,60,,,24,300
-I262,0,Initial,Intervention,6,Male,65,Married,No school,40,6000
-I262,0,Month 12,Intervention,6,,66,,,42,8000
-I272,0,Initial,Intervention,6,Female,45,Married,No school,36,1200
-I272,0,Month 12,Intervention,6,,46,,,30,2500
-I274,0,Initial,Intervention,4,Female,50,Widowed,S1-S4,40,7000
-I274,0,Month 12,Intervention,4,,51,,,46,7000
-I275,0,Initial,Intervention,7,Female,58,Married,No school,56,1000
-I275,0,Month 12,Intervention,7,,59,,,50,2000
+study_id,droppedout,redcap_event_name,participant_arm,number_of_hsm,ageyrs_hsm1,highest_school_level_hsm1,work_hrs_hsm1,income_earned_hsm1
+C035,1,Initial,Control,2,30,Tertiary/Vocational,60,12000
+C049,1,Initial,Control,5,23,P1-P8,42,0
+C158,1,Initial,Control,5,45,P1-P8,48,1000
+C196,1,Initial,Control,4,37,No school,40,1500
+I009,1,Initial,Intervention,4,38,P1-P8,60,14000
+I017,1,Initial,Intervention,3,57,S1-S4,48,2000
+I021,1,Initial,Intervention,5,50,P1-P8,36,3000
+I025,1,Initial,Intervention,6,54,P1-P8,48,14000
+I029,1,Initial,Intervention,5,45,S1-S4,42,4000
+I033,1,Initial,Intervention,6,41,P1-P8,60,10000
+I035,1,Initial,Intervention,1,67,No school,28,600
+I051,1,Initial,Intervention,5,27,P1-P8,63,7995
+I054,1,Initial,Intervention,6,40,No school,48,2500
+I070,1,Initial,Intervention,3,29,No school,56,6000
+I071,1,Initial,Intervention,4,46,No school,49,15000
+I073,1,Initial,Intervention,5,31,No school,40,9000
+I075,1,Initial,Intervention,2,32,No school,48,0
+I093,1,Initial,Intervention,4,53,S1-S4,52,4800
+I098,1,Initial,Intervention,4,32,P1-P8,40,3000
+I103,1,Initial,Intervention,4,33,P1-P8,40,7000
+I108,1,Initial,Intervention,3,47,S1-S4,42,7000
+I115,1,Initial,Intervention,5,42,S1-S4,78,20000
+I122,1,Initial,Intervention,7,46,P1-P8,40,10000
+I126,1,Initial,Intervention,7,48,No school,48,1000
+I143,1,Initial,Intervention,8,31,P1-P8,60,1000
+I146,1,Initial,Intervention,4,53,No school,40,7000
+I154,1,Initial,Intervention,1,54,S1-S4,70,10920
+I160,1,Initial,Intervention,2,42,P1-P8,6,12000
+I186,1,Initial,Intervention,3,26,No school,40,3000
+I187,1,Initial,Intervention,3,65,No school,36,0
+I188,1,Initial,Intervention,2,35,P1-P8,66,4000
+I189,1,Initial,Intervention,2,29,No school,48,1000
+I201,1,Initial,Intervention,6,40,P1-P8,0,3000
+I217,1,Initial,Intervention,3,38,No school,56,10000
+I229,1,Initial,Intervention,4,60,No school,40,3500
+I236,1,Initial,Intervention,7,39,No school,40,4000
+I238,1,Initial,Intervention,6,58,No school,40,3000
+I249,1,Initial,Intervention,2,26,S1-S4,40,3500
+I250,1,Initial,Intervention,2,27,S1-S4,40,5000
+I252,1,Initial,Intervention,6,33,No school,40,6000
+I265,1,Initial,Intervention,4,35,University,30,20000
+I269,1,Initial,Intervention,3,25,No school,36,2000
+I273,1,Initial,Intervention,1,33,S1-S4,40,10000
+C001,0,Initial,Control,3,50,P1-P8,72,5000
+C001,0,Month 12,Control,3,51,,60,2400
+C002,0,Initial,Control,6,32,P1-P8,48,4000
+C002,0,Month 12,Control,6,33,,56,14400
+C003,0,Initial,Control,4,43,P1-P8,50,41000
+C003,0,Month 12,Control,2,44,,50,0
+C004,0,Initial,Control,5,68,No school,72,6000
+C004,0,Month 12,Control,5,69,,20,0
+C005,0,Initial,Control,4,36,No school,3,850
+C005,0,Month 12,Control,4,37,,15,800
+C006,0,Initial,Control,2,33,S1-S4,40,9000
+C006,0,Month 12,Control,2,34,,40,7000
+C007,0,Initial,Control,4,57,No school,12,200
+C007,0,Month 12,Control,4,58,,48,200
+C009,0,Initial,Control,4,35,P1-P8,40,5000
+C009,0,Month 12,Control,4,36,,48,1000
+C010,0,Initial,Control,5,63,P1-P8,40,0
+C010,0,Month 12,Control,4,64,,0,3000
+C011,0,Initial,Control,3,53,S1-S4,52,10000
+C011,0,Month 12,Control,3,54,,63,12000
+C012,0,Initial,Control,6,58,P1-P8,40,5000
+C012,0,Month 12,Control,6,59,,56,4000
+C013,0,Initial,Control,2,55,No school,46,900
+C013,0,Month 12,Control,2,56,,50,1600
+C014,0,Initial,Control,8,64,P1-P8,28,8400
+C014,0,Month 12,Control,7,65,,48,36000
+C015,0,Initial,Control,4,35,P1-P8,40,8000
+C015,0,Month 12,Control,4,36,,40,8000
+C016,0,Initial,Control,3,28,P1-P8,47,15000
+C016,0,Month 12,Control,3,29,,48,1700
+C017,0,Initial,Control,1,25,S1-S4,48,20000
+C017,0,Month 12,Control,1,26,,48,9600
+C018,0,Initial,Control,3,35,S1-S4,36,3000
+C018,0,Month 12,Control,3,36,,48,7000
+C019,0,Initial,Control,5,41,S1-S4,25,800
+C019,0,Month 12,Control,5,42,,42,5000
+C020,0,Initial,Control,7,42,S1-S4,30,600
+C020,0,Month 12,Control,5,43,,30,600
+C021,0,Initial,Control,3,56,No school,40,4500
+C021,0,Month 12,Control,3,57,,40,8000
+C022,0,Initial,Control,10,49,No school,48,3000
+C022,0,Month 12,Control,10,50,,48,3000
+C023,0,Initial,Control,4,51,P1-P8,30,3000
+C023,0,Month 12,Control,4,52,,30,3000
+C025,0,Initial,Control,8,55,S1-S4,40,40000
+C025,0,Month 12,Control,5,56,,56,10000
+C026,0,Initial,Control,1,40,University,40,30000
+C026,0,Month 12,Control,1,41,,56,30000
+C027,0,Initial,Control,2,47,P1-P8,36,4000
+C027,0,Month 12,Control,2,48,,36,4000
+C029,0,Initial,Control,5,69,S1-S4,36,3600
+C029,0,Month 12,Control,5,70,,36,3600
+C030,0,Initial,Control,2,42,S1-S4,48,14000
+C030,0,Month 12,Control,2,44,,48,300
+C032,0,Initial,Control,3,50,S1-S4,48,2000
+C032,0,Month 12,Control,3,51,,48,4000
+C033,0,Initial,Control,3,39,P1-P8,60,100000
+C033,0,Month 12,Control,3,40,,48,120000
+C034,0,Initial,Control,4,53,S1-S4,52,10000
+C034,0,Month 12,Control,4,54,,63,13000
+C036,0,Initial,Control,3,38,S1-S4,38,4000
+C036,0,Month 12,Control,3,39,,38,4000
+C037,0,Initial,Control,2,48,P1-P8,42,3000
+C037,0,Month 12,Control,2,49,,55,3000
+C038,0,Initial,Control,3,34,P1-P8,56,4200
+C038,0,Month 12,Control,3,35,,56,2500
+C039,0,Initial,Control,5,49,No school,30,7000
+C039,0,Month 12,Control,2,50,,60,15000
+C040,0,Initial,Control,2,45,P1-P8,84,3000
+C040,0,Month 12,Control,2,46,,80,2400
+C041,0,Initial,Control,3,38,S1-S4,40,8000
+C041,0,Month 12,Control,3,39,,40,4000
+C042,0,Initial,Control,3,40,S1-S4,66,8000
+C042,0,Month 12,Control,3,41,,40,2000
+C043,0,Initial,Control,1,52,P1-P8,36,5000
+C043,0,Month 12,Control,1,53,,42,2700
+C045,0,Initial,Control,3,50,S1-S4,36,6000
+C045,0,Month 12,Control,3,51,,43,18000
+C046,0,Initial,Control,3,31,P1-P8,40,2000
+C046,0,Month 12,Control,3,32,,40,0
+C047,0,Initial,Control,3,36,University,60,20000
+C047,0,Month 12,Control,1,37,,72,25000
+C048,0,Initial,Control,3,37,S1-S4,40,4000
+C048,0,Month 12,Control,3,38,,40,4000
+C051,0,Initial,Control,6,38,S1-S4,77,15000
+C051,0,Month 12,Control,2,39,,77,15000
+C052,0,Initial,Control,6,39,S1-S4,24,12000
+C052,0,Month 12,Control,6,40,,24,12000
+C053,0,Initial,Control,7,37,P1-P8,36,150
+C053,0,Month 12,Control,7,38,,48,200
+C054,0,Initial,Control,4,33,S1-S4,48,6000
+C054,0,Month 12,Control,4,34,,52,7000
+C057,0,Initial,Control,6,55,S1-S4,36,1400
+C057,0,Month 12,Control,6,56,,36,4000
+C059,0,Initial,Control,5,52,P1-P8,20,4000
+C059,0,Month 12,Control,3,53,,36,2000
+C060,0,Initial,Control,3,69,No school,24,6000
+C060,0,Month 12,Control,2,70,,24,5000
+C061,0,Initial,Control,9,45,P1-P8,30,4000
+C061,0,Month 12,Control,8,46,,30,4000
+C062,0,Initial,Control,4,43,P1-P8,60,7200
+C062,0,Month 12,Control,4,44,,56,7500
+C063,0,Initial,Control,5,48,P1-P8,40,5000
+C063,0,Month 12,Control,2,49,,48,4500
+C064,0,Initial,Control,6,50,S1-S4,48,500
+C064,0,Month 12,Control,4,51,,48,700
+C066,0,Initial,Control,10,43,S1-S4,84,6000
+C066,0,Month 12,Control,7,44,,70,3000
+C067,0,Initial,Control,5,26,P1-P8,60,72000
+C067,0,Month 12,Control,5,27,,56,1000
+C068,0,Initial,Control,5,50,P1-P8,36,0
+C068,0,Month 12,Control,5,51,,36,8000
+C069,0,Initial,Control,6,47,No school,40,4000
+C069,0,Month 12,Control,6,48,,48,3000
+C070,0,Initial,Control,3,40,No school,0,0
+C070,0,Month 12,Control,3,41,,35,3000
+C071,0,Initial,Control,5,56,S1-S4,56,12000
+C071,0,Month 12,Control,2,57,,52,10000
+C073,0,Initial,Control,2,29,P1-P8,41,3200
+C073,0,Month 12,Control,2,30,,52,4800
+C074,0,Initial,Control,8,57,S1-S4,40,2000
+C074,0,Month 12,Control,3,58,,40,3000
+C077,0,Initial,Control,3,29,S1-S4,40,6000
+C077,0,Month 12,Control,2,30,,40,4800
+C078,0,Initial,Control,6,52,P1-P8,40,2000
+C078,0,Month 12,Control,4,53,,40,2000
+C079,0,Initial,Control,3,35,No school,48,7200
+C079,0,Month 12,Control,1,36,,48,4000
+C080,0,Initial,Control,7,44,P1-P8,40,25000
+C080,0,Month 12,Control,7,45,,56,20000
+C082,0,Initial,Control,5,33,No school,30,5000
+C082,0,Month 12,Control,5,34,,30,5000
+C084,0,Initial,Control,4,49,P1-P8,40,6000
+C084,0,Month 12,Control,4,50,,56,4000
+C087,0,Initial,Control,5,46,S1-S4,45,3000
+C087,0,Month 12,Control,5,47,,40,3000
+C088,0,Initial,Control,4,51,No school,48,3000
+C088,0,Month 12,Control,3,52,,56,4000
+C089,0,Initial,Control,6,20,No school,40,3500
+C089,0,Month 12,Control,3,21,,40,3500
+C090,0,Initial,Control,10,47,P1-P8,48,2000
+C090,0,Month 12,Control,5,48,,48,2300
+C091,0,Initial,Control,3,42,No school,63,6000
+C091,0,Month 12,Control,3,43,,56,11200
+C093,0,Initial,Control,1,29,No school,63,6000
+C093,0,Month 12,Control,1,30,,40,6000
+C094,0,Initial,Control,3,53,P1-P8,40,2000
+C094,0,Month 12,Control,3,54,,40,4000
+C095,0,Initial,Control,4,46,Tertiary/Vocational,25,5000
+C095,0,Month 12,Control,3,47,,25,5000
+C096,0,Initial,Control,3,31,No school,60,24000
+C096,0,Month 12,Control,3,32,,48,40000
+C097,0,Initial,Control,6,32,P1-P8,36,3000
+C097,0,Month 12,Control,6,33,,63,3000
+C098,0,Initial,Control,4,39,No school,48,6200
+C098,0,Month 12,Control,1,40,,48,4000
+C099,0,Initial,Control,4,30,S1-S4,42,0
+C099,0,Month 12,Control,4,31,,42,2400
+C100,0,Initial,Control,4,51,No school,48,10000
+C100,0,Month 12,Control,2,52,,42,4800
+C101,0,Initial,Control,6,58,No school,72,7000
+C101,0,Month 12,Control,6,59,No school,59,7000
+C102,0,Initial,Control,5,38,No school,40,5000
+C102,0,Month 12,Control,4,39,,56,5000
+C103,0,Initial,Control,7,54,No school,72,11000
+C103,0,Month 12,Control,6,55,,60,1100
+C104,0,Initial,Control,3,65,No school,20,0
+C104,0,Month 12,Control,3,66,,36,0
+C105,0,Initial,Control,7,38,No school,35,1200
+C105,0,Month 12,Control,7,39,,42,4000
+C106,0,Initial,Control,14,49,No school,24,1500
+C106,0,Month 12,Control,10,50,,24,1500
+C107,0,Initial,Control,3,64,No school,40,3000
+C107,0,Month 12,Control,3,65,,20,0
+C112,0,Initial,Control,5,50,No school,42,9000
+C112,0,Month 12,Control,2,51,,56,15000
+C114,0,Initial,Control,6,39,P1-P8,40,9000
+C114,0,Month 12,Control,6,40,,46,9000
+C116,0,Initial,Control,8,48,No school,45,15000
+C116,0,Month 12,Control,4,49,,46,10000
+C117,0,Initial,Control,4,40,No school,40,6000
+C117,0,Month 12,Control,4,41,,40,5000
+C118,0,Initial,Control,3,38,P1-P8,48,2000
+C118,0,Month 12,Control,3,39,,56,3000
+C119,0,Initial,Control,4,48,P1-P8,40,6000
+C119,0,Month 12,Control,4,49,,40,6000
+C121,0,Initial,Control,5,57,No school,40,4000
+C121,0,Month 12,Control,5,58,,56,3000
+C122,0,Initial,Control,7,42,P1-P8,48,200
+C122,0,Month 12,Control,5,43,,48,2000
+C125,0,Initial,Control,5,28,P1-P8,48,12000
+C125,0,Month 12,Control,5,29,,48,12000
+C126,0,Initial,Control,4,55,No school,48,0
+C126,0,Month 12,Control,1,56,,48,0
+C129,0,Initial,Control,7,52,P1-P8,63,1400
+C129,0,Month 12,Control,6,53,,60,3000
+C130,0,Initial,Control,2,30,No school,48,3000
+C130,0,Month 12,Control,2,31,,56,3000
+C131,0,Initial,Control,6,44,S1-S4,48,4800
+C131,0,Month 12,Control,6,45,,56,2000
+C132,0,Initial,Control,5,51,No school,45,3000
+C132,0,Month 12,Control,5,52,,45,3000
+C134,0,Initial,Control,7,37,No school,48,1500
+C134,0,Month 12,Control,6,38,,48,4000
+C135,0,Initial,Control,4,48,No school,40,4000
+C135,0,Month 12,Control,4,49,,51,3800
+C136,0,Initial,Control,8,58,P1-P8,69,1000
+C136,0,Month 12,Control,6,59,,0,0
+C137,0,Initial,Control,1,52,S1-S4,40,15000
+C137,0,Month 12,Control,1,53,,46,15000
+C138,0,Initial,Control,5,54,P1-P8,54,2400
+C138,0,Month 12,Control,5,55,,54,25000
+C139,0,Initial,Control,2,48,No school,36,3000
+C139,0,Month 12,Control,1,49,,41,3100
+C141,0,Initial,Control,6,40,No school,72,5000
+C141,0,Month 12,Control,6,41,,72,5000
+C142,0,Initial,Control,2,46,No school,40,1000
+C142,0,Month 12,Control,2,47,,40,6000
+C143,0,Initial,Control,4,66,No school,72,5600
+C143,0,Month 12,Control,3,67,,56,5000
+C144,0,Initial,Control,2,56,P1-P8,15,4000
+C144,0,Month 12,Control,2,57,,36,2500
+C145,0,Initial,Control,8,45,P1-P8,48,5000
+C145,0,Month 12,Control,8,46,,42,4500
+C147,0,Initial,Control,7,64,P1-P8,48,3000
+C147,0,Month 12,Control,6,65,,48,2000
+C148,0,Initial,Control,5,49,S1-S4,40,10000
+C148,0,Month 12,Control,5,50,,40,10000
+C149,0,Initial,Control,3,43,S1-S4,66,10000
+C149,0,Month 12,Control,3,44,,63,10000
+C150,0,Initial,Control,3,36,P1-P8,40,6000
+C150,0,Month 12,Control,3,37,,42,2000
+C151,0,Initial,Control,5,45,No school,48,3000
+C151,0,Month 12,Control,5,46,,48,3000
+C152,0,Initial,Control,6,28,No school,36,0
+C152,0,Month 12,Control,6,29,,36,0
+C153,0,Initial,Control,4,55,No school,56,2000
+C153,0,Month 12,Control,4,56,,58,1800
+C155,0,Initial,Control,4,42,P1-P8,48,12000
+C155,0,Month 12,Control,4,43,,56,4000
+C159,0,Initial,Control,5,35,No school,48,2000
+C159,0,Month 12,Control,5,36,,48,2000
+C160,0,Initial,Control,5,40,No school,40,3500
+C160,0,Month 12,Control,5,41,,56,4500
+C161,0,Initial,Control,2,38,No school,40,3000
+C161,0,Month 12,Control,1,39,,44,2400
+C162,0,Initial,Control,5,47,No school,48,2400
+C162,0,Month 12,Control,5,48,,50,25000
+C163,0,Initial,Control,5,48,No school,40,3500
+C163,0,Month 12,Control,5,49,,40,2500
+C164,0,Initial,Control,4,39,No school,36,500
+C164,0,Month 12,Control,4,40,,58,4000
+C166,0,Initial,Control,6,52,P1-P8,48,2400
+C166,0,Month 12,Control,6,53,,58,3000
+C167,0,Initial,Control,4,33,University,40,100000
+C167,0,Month 12,Control,3,34,,48,100000
+C168,0,Initial,Control,7,47,No school,54,7200
+C168,0,Month 12,Control,7,48,,54,5000
+C169,0,Initial,Control,1,41,Tertiary/Vocational,40,3000
+C169,0,Month 12,Control,1,42,,48,2000
+C170,0,Initial,Control,1,31,P1-P8,78,7200
+C170,0,Month 12,Control,1,32,,72,7000
+C171,0,Initial,Control,4,60,No school,48,12000
+C171,0,Month 12,Control,4,61,,56,8000
+C172,0,Initial,Control,5,29,P1-P8,40,8000
+C172,0,Month 12,Control,3,30,,72,18000
+C173,0,Initial,Control,3,46,Tertiary/Vocational,40,24000
+C173,0,Month 12,Control,2,47,,40,21000
+C174,0,Initial,Control,4,63,P1-P8,40,3000
+C174,0,Month 12,Control,3,64,,56,5000
+C175,0,Initial,Control,10,43,S1-S4,72,15000
+C175,0,Month 12,Control,8,44,,42,5000
+C176,0,Initial,Control,4,37,No school,48,2000
+C176,0,Month 12,Control,4,38,,44,2000
+C177,0,Initial,Control,1,54,P1-P8,40,9000
+C177,0,Month 12,Control,1,55,,60,9000
+C179,0,Initial,Control,6,62,No school,36,2000
+C179,0,Month 12,Control,6,63,,30,2500
+C182,0,Initial,Control,6,37,No school,77,3500
+C182,0,Month 12,Control,6,38,,72,2500
+C183,0,Initial,Control,3,45,No school,36,500
+C183,0,Month 12,Control,3,46,,38,800
+C184,0,Initial,Control,3,54,S1-S4,40,3000
+C184,0,Month 12,Control,1,55,,40,3000
+C185,0,Initial,Control,3,50,P1-P8,40,3000
+C185,0,Month 12,Control,3,51,,42,3000
+C186,0,Initial,Control,2,54,No school,40,0
+C186,0,Month 12,Control,2,55,,44,0
+C187,0,Initial,Control,4,43,University,48,5000
+C187,0,Month 12,Control,4,44,,60,9000
+C188,0,Initial,Control,5,32,No school,40,15000
+C188,0,Month 12,Control,5,33,,48,6000
+C189,0,Initial,Control,4,50,S1-S4,40,1500
+C189,0,Month 12,Control,3,51,,42,2000
+C192,0,Initial,Control,6,49,P1-P8,36,4000
+C192,0,Month 12,Control,6,50,,36,4000
+C194,0,Initial,Control,6,43,No school,72,4500
+C194,0,Month 12,Control,5,44,,63,4000
+C195,0,Initial,Control,5,29,P1-P8,48,2000
+C195,0,Month 12,Control,4,30,,48,2000
+C197,0,Initial,Control,2,47,P1-P8,12,500
+C197,0,Month 12,Control,2,48,,21,10000
+C198,0,Initial,Control,1,28,P1-P8,72,140000
+C198,0,Month 12,Control,1,29,,63,25000
+C199,0,Initial,Control,3,40,S1-S4,40,4500
+C199,0,Month 12,Control,2,41,,40,3000
+C200,0,Initial,Control,3,56,No school,40,3500
+C200,0,Month 12,Control,3,57,,36,6000
+C201,0,Initial,Control,3,45,P1-P8,18,1200
+C201,0,Month 12,Control,3,46,,20,1200
+C202,0,Initial,Control,4,43,S1-S4,40,3000
+C202,0,Month 12,Control,4,44,,46,5000
+C203,0,Initial,Control,4,43,No school,40,3000
+C203,0,Month 12,Control,4,44,,32,300
+C204,0,Initial,Control,5,53,No school,40,3000
+C204,0,Month 12,Control,5,54,,28,1000
+C206,0,Initial,Control,4,26,No school,40,3000
+C206,0,Month 12,Control,4,27,,56,15000
+C207,0,Initial,Control,9,62,Tertiary/Vocational,48,40000
+C207,0,Month 12,Control,9,63,,48,40000
+C208,0,Initial,Control,5,60,No school,40,3500
+C208,0,Month 12,Control,5,61,,35,3600
+C209,0,Initial,Control,5,24,P1-P8,48,0
+C209,0,Month 12,Control,5,25,,50,20000
+C210,0,Initial,Control,4,61,P1-P8,46,10000
+C210,0,Month 12,Control,4,62,,46,15000
+C211,0,Initial,Control,4,50,P1-P8,52,450
+C211,0,Month 12,Control,4,51,,52,3000
+C212,0,Initial,Control,3,57,No school,24,1000
+C212,0,Month 12,Control,3,58,,18,500
+C213,0,Initial,Control,4,27,P1-P8,36,1000
+C213,0,Month 12,Control,4,28,,40,2000
+C215,0,Initial,Control,7,49,No school,48,500
+C215,0,Month 12,Control,7,50,,48,500
+C216,0,Initial,Control,7,55,P1-P8,60,4000
+C216,0,Month 12,Control,7,56,,58,3500
+C217,0,Initial,Control,7,40,No school,40,3000
+C217,0,Month 12,Control,7,41,,46,3000
+C218,0,Initial,Control,3,29,No school,24,3000
+C218,0,Month 12,Control,3,30,,30,4500
+C219,0,Initial,Control,5,42,No school,60,7200
+C219,0,Month 12,Control,3,43,,60,7200
+C220,0,Initial,Control,13,39,No school,60,7200
+C220,0,Month 12,Control,13,40,,60,10000
+C221,0,Initial,Control,4,38,No school,42,3000
+C221,0,Month 12,Control,4,39,,42,2000
+C222,0,Initial,Control,4,42,S1-S4,48,7000
+C222,0,Month 12,Control,4,43,,48,22000
+C223,0,Initial,Control,6,42,No school,56,5000
+C223,0,Month 12,Control,5,43,,12,0
+C225,0,Initial,Control,1,48,No school,42,2500
+C225,0,Month 12,Control,1,49,,50,4500
+C226,0,Initial,Control,3,54,P1-P8,18,500
+C226,0,Month 12,Control,3,55,,22,0
+C228,0,Initial,Control,5,42,P1-P8,40,3500
+C228,0,Month 12,Control,4,43,,36,2000
+C229,0,Initial,Control,6,57,No school,24,500
+C229,0,Month 12,Control,6,58,,30,4500
+C230,0,Initial,Control,5,62,S1-S4,40,3000
+C230,0,Month 12,Control,5,63,,42,3500
+C231,0,Initial,Control,1,45,P1-P8,40,1000
+C231,0,Month 12,Control,1,46,,56,50000
+C232,0,Initial,Control,5,40,P1-P8,40,10000
+C232,0,Month 12,Control,2,41,,72,35000
+C233,0,Initial,Control,6,48,S1-S4,25,20000
+C233,0,Month 12,Control,5,43,,12,0
+C234,0,Initial,Control,6,34,No school,42,2000
+C234,0,Month 12,Control,6,35,,56,2000
+C235,0,Initial,Control,6,47,No school,60,2400
+C235,0,Month 12,Control,6,48,,56,5000
+C237,0,Initial,Control,4,49,No school,48,2000
+C237,0,Month 12,Control,4,50,,48,8000
+C238,0,Initial,Control,6,48,S1-S4,72,15000
+C238,0,Month 12,Control,6,49,,80,13000
+C239,0,Initial,Control,7,38,No school,40,4000
+C239,0,Month 12,Control,7,39,,42,40000
+C240,0,Initial,Control,2,46,S1-S4,24,5000
+C240,0,Month 12,Control,1,47,,72,8000
+C241,0,Initial,Control,5,48,No school,40,7000
+C241,0,Month 12,Control,5,49,,40,7000
+C242,0,Initial,Control,5,57,S1-S4,36,13000
+C242,0,Month 12,Control,5,58,,56,32
+C243,0,Initial,Control,2,30,P1-P8,40,8000
+C243,0,Month 12,Control,2,31,,40,8000
+C244,0,Initial,Control,4,48,S1-S4,48,80000
+C244,0,Month 12,Control,4,49,,52,15000
+C245,0,Initial,Control,7,49,No school,40,2000
+C245,0,Month 12,Control,7,50,,40,2500
+C246,0,Initial,Control,5,53,P1-P8,48,4800
+C246,0,Month 12,Control,5,54,,56,5000
+C247,0,Initial,Control,4,46,No school,40,4500
+C247,0,Month 12,Control,4,47,,46,5000
+C248,0,Initial,Control,3,54,P1-P8,36,45000
+C248,0,Month 12,Control,3,55,,48,25000
+C249,0,Initial,Control,3,50,No school,30,2000
+C249,0,Month 12,Control,3,51,,34,3000
+C250,0,Initial,Control,4,61,No school,40,1500
+C250,0,Month 12,Control,4,62,,45,1800
+C251,0,Initial,Control,8,53,No school,24,2000
+C251,0,Month 12,Control,8,54,,48,1000
+C252,0,Initial,Control,7,48,P1-P8,40,12000
+C252,0,Month 12,Control,7,49,,40,20000
+C253,0,Initial,Control,6,54,No school,42,3000
+C253,0,Month 12,Control,5,55,,56,3000
+C254,0,Initial,Control,4,41,No school,40,3500
+C254,0,Month 12,Control,4,42,,40,6000
+C255,0,Initial,Control,5,61,S1-S4,40,1000
+C255,0,Month 12,Control,5,62,,40,3000
+C258,0,Initial,Control,2,43,No school,40,15000
+C258,0,Month 12,Control,2,44,,40,15000
+C259,0,Initial,Control,5,30,S1-S4,42,0
+C259,0,Month 12,Control,5,31,,48,30000
+C260,0,Initial,Control,3,50,No school,40,4000
+C260,0,Month 12,Control,3,51,,52,4500
+C261,0,Initial,Control,2,30,No school,40,3500
+C261,0,Month 12,Control,2,31,,48,4000
+C265,0,Initial,Control,6,70,No school,48,4800
+C265,0,Month 12,Control,6,71,,48,4800
+I003,0,Initial,Intervention,5,62,S1-S4,5,3500
+I003,0,Month 12,Intervention,5,63,,32,5000
+I004,0,Initial,Intervention,4,35,S1-S4,3,1600
+I004,0,Month 12,Intervention,4,36,,35,9000
+I005,0,Initial,Intervention,4,48,P1-P8,36,12000
+I005,0,Month 12,Intervention,3,49,,56,20000
+I006,0,Initial,Intervention,5,43,S1-S4,40,1000
+I006,0,Month 12,Intervention,3,44,,56,10000
+I007,0,Initial,Intervention,4,49,P1-P8,8,0
+I007,0,Month 12,Intervention,4,50,,38,6000
+I008,0,Initial,Intervention,6,50,S1-S4,42,8800
+I008,0,Month 12,Intervention,5,51,,42,9000
+I010,0,Initial,Intervention,5,32,No school,48,4500
+I010,0,Month 12,Intervention,5,33,,48,5000
+I011,0,Initial,Intervention,5,32,P1-P8,48,3000
+I011,0,Month 12,Intervention,5,33,,48,3000
+I012,0,Initial,Intervention,5,69,No school,4,500
+I012,0,Month 12,Intervention,5,70,,16,0
+I013,0,Initial,Intervention,6,29,No school,36,1500
+I013,0,Month 12,Intervention,6,30,,48,4000
+I014,0,Initial,Intervention,2,56,P1-P8,21,3000
+I014,0,Month 12,Intervention,2,57,,36,0
+I015,0,Initial,Intervention,2,36,S1-S4,42,4800
+I015,0,Month 12,Intervention,2,37,,48,3000
+I016,0,Initial,Intervention,3,55,P1-P8,30,3000
+I016,0,Month 12,Intervention,3,56,,32,3500
+I019,0,Initial,Intervention,4,23,S1-S4,40,16000
+I019,0,Month 12,Intervention,4,24,,56,3600
+I020,0,Initial,Intervention,3,50,P1-P8,48,24000
+I020,0,Month 12,Intervention,2,51,,56,40000
+I022,0,Initial,Intervention,5,42,P1-P8,40,3000
+I022,0,Month 12,Intervention,4,43,,56,5000
+I023,0,Initial,Intervention,5,35,P1-P8,48,3000
+I023,0,Month 12,Intervention,5,36,,40,3000
+I024,0,Initial,Intervention,7,30,P1-P8,49,2800
+I024,0,Month 12,Intervention,7,31,,50,6000
+I026,0,Initial,Intervention,6,65,P1-P8,40,5000
+I026,0,Month 12,Intervention,4,66,,40,3000
+I027,0,Initial,Intervention,4,35,P1-P8,40,4500
+I027,0,Month 12,Intervention,4,36,,46,4500
+I030,0,Initial,Intervention,4,43,P1-P8,40,45000
+I030,0,Month 12,Intervention,4,44,,40,1700
+I034,0,Initial,Intervention,7,72,No school,28,5000
+I034,0,Month 12,Intervention,7,73,,32,5000
+I036,0,Initial,Intervention,4,54,P1-P8,40,3000
+I036,0,Month 12,Intervention,4,55,,52,3000
+I037,0,Initial,Intervention,5,42,P1-P8,21,1400
+I037,0,Month 12,Intervention,5,43,,30,10000
+I038,0,Initial,Intervention,5,43,P1-P8,56,4800
+I038,0,Month 12,Intervention,4,44,,48,3000
+I039,0,Initial,Intervention,8,42,P1-P8,48,12000
+I039,0,Month 12,Intervention,8,43,,52,15000
+I041,0,Initial,Intervention,4,31,P1-P8,72,8400
+I041,0,Month 12,Intervention,4,32,,70,8000
+I042,0,Initial,Intervention,1,55,P1-P8,36,1400
+I042,0,Month 12,Intervention,1,56,,38,13000
+I045,0,Initial,Intervention,4,69,S1-S4,35,500
+I045,0,Month 12,Intervention,4,70,,30,2000
+I047,0,Initial,Intervention,5,38,S1-S4,36,4500
+I047,0,Month 12,Intervention,5,39,,36,4000
+I048,0,Initial,Intervention,10,40,P1-P8,49,5000
+I048,0,Month 12,Intervention,8,41,,56,4500
+I049,0,Initial,Intervention,7,48,S1-S4,40,3500
+I049,0,Month 12,Intervention,7,49,,40,5000
+I050,0,Initial,Intervention,5,52,P1-P8,48,2500
+I050,0,Month 12,Intervention,4,53,,48,3000
+I052,0,Initial,Intervention,5,44,P1-P8,35,4000
+I052,0,Month 12,Intervention,4,45,,36,4000
+I053,0,Initial,Intervention,6,51,P1-P8,40,6000
+I053,0,Month 12,Intervention,6,52,,40,20000
+I057,0,Initial,Intervention,4,33,No school,66,20000
+I057,0,Month 12,Intervention,3,34,,63,8000
+I058,0,Initial,Intervention,5,48,No school,14,5000
+I058,0,Month 12,Intervention,5,49,,20,3000
+I061,0,Initial,Intervention,8,43,University,40,20000
+I061,0,Month 12,Intervention,7,44,,50,35000
+I062,0,Initial,Intervention,5,62,S1-S4,25,10000
+I062,0,Month 12,Intervention,5,63,,33,1000
+I064,0,Initial,Intervention,5,57,No school,21,6000
+I064,0,Month 12,Intervention,4,58,,20,2000
+I065,0,Initial,Intervention,5,58,P1-P8,40,10000
+I065,0,Month 12,Intervention,5,59,,40,5000
+I066,0,Initial,Intervention,1,30,No school,60,500
+I066,0,Month 12,Intervention,1,31,,68,700
+I067,0,Initial,Intervention,6,48,S1-S4,40,15000
+I067,0,Month 12,Intervention,6,49,,42,15000
+I068,0,Initial,Intervention,5,43,P1-P8,40,3000
+I068,0,Month 12,Intervention,4,44,,52,6000
+I069,0,Initial,Intervention,7,47,S1-S4,60,4000
+I069,0,Month 12,Intervention,6,48,,60,3000
+I074,0,Initial,Intervention,3,59,No school,24,13000
+I074,0,Month 12,Intervention,3,60,,36,17000
+I076,0,Initial,Intervention,3,44,No school,40,4500
+I076,0,Month 12,Intervention,3,45,,50,6000
+I077,0,Initial,Intervention,3,38,P1-P8,56,3000
+I077,0,Month 12,Intervention,3,39,,50,3000
+I078,0,Initial,Intervention,3,37,P1-P8,48,9000
+I078,0,Month 12,Intervention,3,38,,48,6000
+I079,0,Initial,Intervention,5,42,No school,40,3000
+I079,0,Month 12,Intervention,5,43,,42,30000
+I080,0,Initial,Intervention,2,56,No school,48,4500
+I080,0,Month 12,Intervention,1,57,,48,4500
+I082,0,Initial,Intervention,3,53,No school,66,3000
+I082,0,Month 12,Intervention,3,54,,63,10000
+I084,0,Initial,Intervention,4,54,P1-P8,40,500
+I084,0,Month 12,Intervention,4,55,,40,3000
+I085,0,Initial,Intervention,5,32,No school,63,4800
+I085,0,Month 12,Intervention,5,33,,38,0
+I087,0,Initial,Intervention,3,45,S1-S4,48,10000
+I087,0,Month 12,Intervention,3,46,,52,7000
+I088,0,Initial,Intervention,4,46,No school,8,0
+I088,0,Month 12,Intervention,4,47,,6,0
+I091,0,Initial,Intervention,8,43,S1-S4,48,7200
+I091,0,Month 12,Intervention,8,44,,56,4000
+I094,0,Initial,Intervention,2,57,No school,25,10000
+I094,0,Month 12,Intervention,2,58,,32,5000
+I097,0,Initial,Intervention,3,54,Tertiary/Vocational,45,20000
+I097,0,Month 12,Intervention,3,55,,40,21000
+I100,0,Initial,Intervention,8,51,No school,40,3000
+I100,0,Month 12,Intervention,8,52,,56,9000
+I101,0,Initial,Intervention,8,58,Tertiary/Vocational,45,3000
+I101,0,Month 12,Intervention,8,59,,45,2000
+I104,0,Initial,Intervention,2,46,No school,40,6000
+I104,0,Month 12,Intervention,2,47,,40,3000
+I106,0,Initial,Intervention,3,54,No school,48,3000
+I106,0,Month 12,Intervention,3,55,,30,4000
+I107,0,Initial,Intervention,5,49,No school,48,300
+I107,0,Month 12,Intervention,4,50,,48,900
+I109,0,Initial,Intervention,5,53,No school,48,2400
+I109,0,Month 12,Intervention,4,54,,36,0
+I110,0,Initial,Intervention,9,42,No school,42,2000
+I110,0,Month 12,Intervention,8,43,,42,2000
+I111,0,Initial,Intervention,4,33,S1-S4,42,84000
+I111,0,Month 12,Intervention,4,34,,44,12000
+I114,0,Initial,Intervention,3,51,University,40,24000
+I114,0,Month 12,Intervention,2,52,,40,24000
+I116,0,Initial,Intervention,4,38,P1-P8,105,5000
+I116,0,Month 12,Intervention,3,39,,72,2500
+I117,0,Initial,Intervention,4,55,No school,48,1000
+I117,0,Month 12,Intervention,4,56,,40,600
+I118,0,Initial,Intervention,3,61,S1-S4,40,3500
+I118,0,Month 12,Intervention,3,62,,40,4800
+I119,0,Initial,Intervention,5,56,P1-P8,30,7200
+I119,0,Month 12,Intervention,5,57,,49,7200
+I120,0,Initial,Intervention,2,56,No school,48,3000
+I120,0,Month 12,Intervention,2,57,,48,2500
+I121,0,Initial,Intervention,5,48,P1-P8,72,6000
+I121,0,Month 12,Intervention,5,49,,64,3000
+I125,0,Initial,Intervention,8,44,Tertiary/Vocational,54,10000
+I125,0,Month 12,Intervention,8,45,,54,5000
+I127,0,Initial,Intervention,5,49,No school,40,14000
+I127,0,Month 12,Intervention,5,50,,56,18000
+I128,0,Initial,Intervention,7,57,No school,40,4500
+I128,0,Month 12,Intervention,7,58,,40,5600
+I130,0,Initial,Intervention,2,72,No school,7,350
+I130,0,Month 12,Intervention,2,73,,14,2000
+I131,0,Initial,Intervention,2,42,S1-S4,40,15000
+I131,0,Month 12,Intervention,2,43,,40,15000
+I133,0,Initial,Intervention,4,42,P1-P8,40,10000
+I133,0,Month 12,Intervention,4,43,,72,5000
+I135,0,Initial,Intervention,7,40,No school,60,6000
+I135,0,Month 12,Intervention,4,41,,63,6000
+I136,0,Initial,Intervention,3,50,P1-P8,40,3000
+I136,0,Month 12,Intervention,3,51,,48,10000
+I137,0,Initial,Intervention,1,50,No school,40,50000
+I137,0,Month 12,Intervention,1,51,,40,4000
+I138,0,Initial,Intervention,2,32,P1-P8,105,3500
+I138,0,Month 12,Intervention,2,33,,108,20000
+I139,0,Initial,Intervention,3,58,P1-P8,40,6000
+I139,0,Month 12,Intervention,3,59,,42,3500
+I141,0,Initial,Intervention,4,50,No school,40,5000
+I141,0,Month 12,Intervention,4,51,,56,5000
+I142,0,Initial,Intervention,5,33,P1-P8,40,18000
+I142,0,Month 12,Intervention,5,34,,70,22000
+I144,0,Initial,Intervention,1,51,No school,36,3000
+I144,0,Month 12,Intervention,1,52,,40,1000
+I147,0,Initial,Intervention,6,51,P1-P8,46,2400
+I147,0,Month 12,Intervention,4,52,,52,6000
+I149,0,Initial,Intervention,6,55,No school,40,4000
+I149,0,Month 12,Intervention,6,56,,40,2000
+I150,0,Initial,Intervention,4,68,No school,30,2000
+I150,0,Month 12,Intervention,2,69,,24,2000
+I151,0,Initial,Intervention,1,26,No school,6,7000
+I151,0,Month 12,Intervention,1,27,,48,1000
+I152,0,Initial,Intervention,2,32,No school,60,4000
+I152,0,Month 12,Intervention,2,33,,63,3500
+I153,0,Initial,Intervention,4,37,S1-S4,40,2000
+I153,0,Month 12,Intervention,4,38,,45,2000
+I155,0,Initial,Intervention,7,48,S1-S4,48,1000
+I155,0,Month 12,Intervention,6,49,,42,9000
+I156,0,Initial,Intervention,6,40,No school,5,3000
+I156,0,Month 12,Intervention,6,41,,34,4000
+I157,0,Initial,Intervention,5,48,S1-S4,48,20000
+I157,0,Month 12,Intervention,4,49,,40,31000
+I159,0,Initial,Intervention,2,66,P1-P8,38,2500
+I159,0,Month 12,Intervention,2,67,,36,600
+I161,0,Initial,Intervention,5,32,S1-S4,40,8000
+I161,0,Month 12,Intervention,5,33,,46,13000
+I162,0,Initial,Intervention,5,50,No school,48,4000
+I162,0,Month 12,Intervention,2,51,,42,4800
+I163,0,Initial,Intervention,7,47,No school,42,0
+I163,0,Month 12,Intervention,7,48,,56,2000
+I164,0,Initial,Intervention,4,43,S1-S4,24,2000
+I164,0,Month 12,Intervention,4,44,,22,900
+I165,0,Initial,Intervention,3,34,No school,40,2800
+I165,0,Month 12,Intervention,3,35,,4,2000
+I167,0,Initial,Intervention,3,57,No school,36,1000
+I167,0,Month 12,Intervention,3,58,,34,700
+I168,0,Initial,Intervention,2,61,No school,10,1500
+I168,0,Month 12,Intervention,1,62,,32,3000
+I169,0,Initial,Intervention,2,40,No school,40,4000
+I169,0,Month 12,Intervention,2,41,,42,5000
+I170,0,Initial,Intervention,1,52,P1-P8,40,4500
+I170,0,Month 12,Intervention,1,53,,56,4800
+I171,0,Initial,Intervention,1,67,No school,20,0
+I171,0,Month 12,Intervention,1,68,,18,0
+I172,0,Initial,Intervention,2,48,No school,40,2500
+I172,0,Month 12,Intervention,2,49,,56,5000
+I173,0,Initial,Intervention,6,46,P1-P8,48,3000
+I173,0,Month 12,Intervention,6,47,,48,9000
+I175,0,Initial,Intervention,8,48,No school,60,1000
+I175,0,Month 12,Intervention,8,49,,60,3000
+I176,0,Initial,Intervention,4,36,P1-P8,48,3000
+I176,0,Month 12,Intervention,4,37,,56,2000
+I178,0,Initial,Intervention,5,32,P1-P8,40,3500
+I178,0,Month 12,Intervention,5,33,,42,2000
+I180,0,Initial,Intervention,5,58,P1-P8,46,1000
+I180,0,Month 12,Intervention,5,59,,46,2000
+I183,0,Initial,Intervention,6,39,P1-P8,60,2000
+I183,0,Month 12,Intervention,6,40,,62,4000
+I190,0,Initial,Intervention,1,51,P1-P8,24,0
+I190,0,Month 12,Intervention,1,52,,32,2000
+I191,0,Initial,Intervention,4,39,P1-P8,60,3000
+I191,0,Month 12,Intervention,4,40,,63,5000
+I192,0,Initial,Intervention,4,51,No school,48,6000
+I192,0,Month 12,Intervention,4,52,,48,6000
+I194,0,Initial,Intervention,6,50,No school,42,2400
+I194,0,Month 12,Intervention,6,51,,40,2000
+I195,0,Initial,Intervention,7,54,No school,60,10000
+I195,0,Month 12,Intervention,7,55,,60,10000
+I196,0,Initial,Intervention,9,48,P1-P8,48,0
+I196,0,Month 12,Intervention,8,49,,56,1000
+I197,0,Initial,Intervention,5,35,No school,40,3500
+I197,0,Month 12,Intervention,4,36,,42,20000
+I198,0,Initial,Intervention,5,55,No school,36,2000
+I198,0,Month 12,Intervention,5,56,,38,2000
+I199,0,Initial,Intervention,5,43,P1-P8,72,8000
+I199,0,Month 12,Intervention,4,44,,68,8000
+I200,0,Initial,Intervention,5,54,No school,48,2000
+I200,0,Month 12,Intervention,5,55,,48,2000
+I202,0,Initial,Intervention,6,44,No school,25,500
+I202,0,Month 12,Intervention,6,45,,28,1000
+I204,0,Initial,Intervention,2,35,S1-S4,36,0
+I204,0,Month 12,Intervention,2,36,,40,3000
+I207,0,Initial,Intervention,3,32,S1-S4,36,500
+I207,0,Month 12,Intervention,3,33,,42,0
+I208,0,Initial,Intervention,6,25,P1-P8,40,2500
+I208,0,Month 12,Intervention,6,26,,40,5000
+I209,0,Initial,Intervention,5,58,Tertiary/Vocational,50,28000
+I209,0,Month 12,Intervention,4,59,,52,39000
+I211,0,Initial,Intervention,4,50,No school,48,1000
+I211,0,Month 12,Intervention,4,51,,42,2300
+I213,0,Initial,Intervention,3,50,No school,36,3000
+I213,0,Month 12,Intervention,3,51,,36,3000
+I214,0,Initial,Intervention,5,46,No school,66,4800
+I214,0,Month 12,Intervention,5,47,,62,4800
+I215,0,Initial,Intervention,7,36,No school,48,1000
+I215,0,Month 12,Intervention,7,37,,48,6000
+I216,0,Initial,Intervention,3,49,No school,40,10000
+I216,0,Month 12,Intervention,3,50,,40,8000
+I218,0,Initial,Intervention,3,29,S1-S4,40,7000
+I218,0,Month 12,Intervention,3,30,,40,8000
+I219,0,Initial,Intervention,4,23,P1-P8,40,3000
+I219,0,Month 12,Intervention,4,24,,38,2100
+I220,0,Initial,Intervention,3,32,P1-P8,40,10000
+I220,0,Month 12,Intervention,3,23,,40,9000
+I221,0,Initial,Intervention,4,49,P1-P8,40,3500
+I221,0,Month 12,Intervention,4,50,,40,3500
+I222,0,Initial,Intervention,6,38,P1-P8,60,15000
+I222,0,Month 12,Intervention,5,39,,52,15000
+I223,0,Initial,Intervention,6,47,No school,66,10000
+I223,0,Month 12,Intervention,5,48,,63,9000
+I224,0,Initial,Intervention,6,51,No school,18,0
+I224,0,Month 12,Intervention,6,52,,18,0
+I225,0,Initial,Intervention,6,40,No school,78,5000
+I225,0,Month 12,Intervention,6,41,,78,4000
+I227,0,Initial,Intervention,2,64,No school,48,0
+I227,0,Month 12,Intervention,1,65,,40,300
+I228,0,Initial,Intervention,2,50,P1-P8,48,2500
+I228,0,Month 12,Intervention,2,51,,40,4800
+I230,0,Initial,Intervention,6,38,No school,40,7000
+I230,0,Month 12,Intervention,6,39,,40,6000
+I232,0,Initial,Intervention,7,38,P1-P8,36,1000
+I232,0,Month 12,Intervention,4,39,,38,2000
+I233,0,Initial,Intervention,4,35,No school,40,3000
+I233,0,Month 12,Intervention,4,36,,52,3500
+I234,0,Initial,Intervention,1,55,P1-P8,60,4000
+I234,0,Month 12,Intervention,1,56,,60,5000
+I235,0,Initial,Intervention,4,49,S1-S4,72,2000
+I235,0,Month 12,Intervention,4,50,,68,1000
+I237,0,Initial,Intervention,5,59,No school,60,2500
+I237,0,Month 12,Intervention,4,60,,60,1800
+I239,0,Initial,Intervention,4,41,No school,36,2000
+I239,0,Month 12,Intervention,4,42,,48,9000
+I240,0,Initial,Intervention,3,29,S1-S4,40,4000
+I240,0,Month 12,Intervention,3,30,,40,7000
+I241,0,Initial,Intervention,4,28,No school,40,8000
+I241,0,Month 12,Intervention,4,29,,48,0
+I242,0,Initial,Intervention,3,46,P1-P8,48,7500
+I242,0,Month 12,Intervention,3,47,,50,15000
+I243,0,Initial,Intervention,5,65,P1-P8,30,1000
+I243,0,Month 12,Intervention,5,66,,32,1200
+I246,0,Initial,Intervention,4,45,No school,48,500
+I246,0,Month 12,Intervention,4,46,,48,1000
+I248,0,Initial,Intervention,4,46,S1-S4,30,4000
+I248,0,Month 12,Intervention,4,47,,32,4000
+I253,0,Initial,Intervention,3,43,No school,25,1000
+I253,0,Month 12,Intervention,3,44,,30,4000
+I256,0,Initial,Intervention,7,54,Tertiary/Vocational,48,60000
+I256,0,Month 12,Intervention,5,55,,48,60000
+I257,0,Initial,Intervention,7,48,No school,40,3500
+I257,0,Month 12,Intervention,7,49,,40,4000
+I259,0,Initial,Intervention,2,62,No school,42,3000
+I259,0,Month 12,Intervention,2,63,,48,4000
+I260,0,Initial,Intervention,6,42,No school,72,3000
+I260,0,Month 12,Intervention,6,43,,63,3500
+I261,0,Initial,Intervention,2,59,S1-S4,24,200
+I261,0,Month 12,Intervention,2,60,,24,300
+I262,0,Initial,Intervention,6,65,No school,40,6000
+I262,0,Month 12,Intervention,6,66,,42,8000
+I272,0,Initial,Intervention,6,45,No school,36,1200
+I272,0,Month 12,Intervention,6,46,,30,2500
+I274,0,Initial,Intervention,4,50,S1-S4,40,7000
+I274,0,Month 12,Intervention,4,51,,46,7000
+I275,0,Initial,Intervention,7,58,No school,56,1000
+I275,0,Month 12,Intervention,7,59,,50,2000
