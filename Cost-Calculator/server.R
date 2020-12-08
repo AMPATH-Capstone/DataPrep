@@ -80,9 +80,11 @@ shinyServer(function(input, output) {
     cta2 <- melt(cta, id="ptcount")
     ggplot(data=cta2,
            aes(x=ptcount, y=value, color=variable)) +
-      theme(plot.title = element_text(color="black", size=16, face="bold"),
-            axis.title.x = element_text(color="black", size=14, face="bold"),
-            axis.title.y = element_text(color="black", size=14, face="bold"),
+      theme(plot.title = element_text(color="black", size=18, face="bold"),
+            axis.title.x = element_text(color="black", size=16, face="bold"),
+            axis.title.y = element_text(color="black", size=16, face="bold"),
+            axis.text.x = element_text(color="black", size=12),
+            axis.text.y = element_text(color="black", size=12),
             panel.background = element_rect(fill="white"),
             panel.grid.major = element_line(size = 0.5,
                                             linetype = 'solid',
@@ -96,7 +98,7 @@ shinyServer(function(input, output) {
       ggtitle("Annual Administrative Costs by Treatment Model") +
       scale_color_gdocs(
         name="Treatment Model",
-        labels=c("Study Co-op", "Real-World Co-op"))
+        labels=c("StudyReal-world Co-op", "Real-World Co-op"))
 
   })
 
@@ -112,9 +114,11 @@ shinyServer(function(input, output) {
     ctp2 <- melt(ctp, id="pt_num_appt")
     ggplot(data=ctp2,
            aes(x=pt_num_appt, y=value, color=variable)) +
-      theme(plot.title = element_text(color="black", size=16, face="bold"),
-            axis.title.x = element_text(color="black", size=14, face="bold"),
-            axis.title.y = element_text(color="black", size=14, face="bold"),
+      theme(plot.title = element_text(color="black", size=18, face="bold"),
+            axis.title.x = element_text(color="black", size=16, face="bold"),
+            axis.title.y = element_text(color="black", size=16, face="bold"),
+            axis.text.x = element_text(color="black", size=12),
+            axis.text.y = element_text(color="black", size=12),
             panel.background = element_rect(fill="white"),
             panel.grid.major = element_line(size = 0.5,
                                             linetype = 'solid',
@@ -143,9 +147,11 @@ shinyServer(function(input, output) {
     ctp2 <- melt(ctp, id="pt_num_appt")
     ggplot(data=ctp2,
            aes(x=pt_num_appt, y=value, color=variable)) +
-      theme(plot.title = element_text(color="black", size=16, face="bold"),
-            axis.title.x = element_text(color="black", size=14, face="bold"),
-            axis.title.y = element_text(color="black", size=14, face="bold"),
+      theme(plot.title = element_text(color="black", size=18, face="bold"),
+            axis.title.x = element_text(color="black", size=16, face="bold"),
+            axis.title.y = element_text(color="black", size=16, face="bold"),
+            axis.text.x = element_text(color="black", size=12),
+            axis.text.y = element_text(color="black", size=12),
             panel.background = element_rect(fill="white"),
             panel.grid.major = element_line(size = 0.5,
                                             linetype = 'solid',
@@ -166,9 +172,11 @@ shinyServer(function(input, output) {
 
     ggplot(data=byappt,
            aes(x=Appointments, ymin=mih, ymax =mxh, y=mnh, color=participant_arm, group=participant_arm)) +
-      theme(plot.title = element_text(color="black", size=16, face="bold"),
-            axis.title.x = element_text(color="black", size=14, face="bold"),
-            axis.title.y = element_text(color="black", size=14, face="bold"),
+      theme(plot.title = element_text(color="black", size=18, face="bold"),
+            axis.title.x = element_text(color="black", size=16, face="bold"),
+            axis.title.y = element_text(color="black", size=16, face="bold"),
+            axis.text.x = element_text(color="black", size=12),
+            axis.text.y = element_text(color="black", size=12),
             panel.background = element_rect(fill="white"),
             panel.grid.major = element_line(size = 0.5,
                                             linetype = 'solid',
@@ -189,9 +197,11 @@ shinyServer(function(input, output) {
 
     ggplot(data=byappt,
            aes(x=Appointments, ymin=mic, ymax=mxc, y=mnc, color=participant_arm, group=participant_arm)) +
-      theme(plot.title = element_text(color="black", size=16, face="bold"),
-            axis.title.x = element_text(color="black", size=14, face="bold"),
-            axis.title.y = element_text(color="black", size=14, face="bold"),
+      theme(plot.title = element_text(color="black", size=18, face="bold"),
+            axis.title.x = element_text(color="black", size=16, face="bold"),
+            axis.title.y = element_text(color="black", size=16, face="bold"),
+            axis.text.x = element_text(color="black", size=12),
+            axis.text.y = element_text(color="black", size=12),
             panel.background = element_rect(fill="white"),
             panel.grid.major = element_line(size = 0.5,
                                             linetype = 'solid',
