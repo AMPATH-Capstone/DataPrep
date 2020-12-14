@@ -91,7 +91,9 @@ shinyServer(function(input, output) {
                                             colour = "grey"),
             panel.grid.minor = element_line(size = 0.25,
                                             linetype = 'solid',
-                                            colour = "grey")) +
+                                            colour = "grey"),
+            legend.title=element_text(size=14),
+            legend.text=element_text(size=13)) +
       labs(x="Number of Community Groups", y="Annual Cost (USD)") +
       scale_y_continuous(labels = comma) +
       geom_line(size=2) +
@@ -125,7 +127,9 @@ shinyServer(function(input, output) {
                                             colour = "grey"),
             panel.grid.minor = element_line(size = 0.25,
                                             linetype = 'solid',
-                                            colour = "grey")) +
+                                            colour = "grey"),
+            legend.title=element_text(size=14),
+            legend.text=element_text(size=13)) +
       labs(x="Appointments per year", y="Annual Cost (KES)") +
       geom_line(size=2) +
       ggtitle("Annual Patient Costs by Treatment Model - Calculated Values") +
@@ -158,7 +162,9 @@ shinyServer(function(input, output) {
                                             colour = "grey"),
             panel.grid.minor = element_line(size = 0.25,
                                             linetype = 'solid',
-                                            colour = "grey")) +
+                                            colour = "grey"),
+            legend.title=element_text(size=14),
+            legend.text=element_text(size=13)) +
       labs(x="Appointments per year", y="Annual Hours") +
       geom_line(size=2) +
       ggtitle("Annual Healthcare Hours by Treatment Model - Calculated Values") +
@@ -183,7 +189,9 @@ shinyServer(function(input, output) {
                                             colour = "grey"),
             panel.grid.minor = element_line(size = 0.25,
                                             linetype = 'solid',
-                                            colour = "grey")) +
+                                            colour = "grey"),
+            legend.title=element_text(size=14),
+            legend.text=element_text(size=13)) +
       labs(x="Annual Appointments", y="Hours Demanded by Healthcare") +
       geom_pointrange(position=position_dodge(width=0.20), size=1) +
       ggtitle("Hours Demanded by Treatment Model - ART Co-op Study") +
@@ -208,7 +216,9 @@ shinyServer(function(input, output) {
                                             colour = "grey"),
             panel.grid.minor = element_line(size = 0.25,
                                             linetype = 'solid',
-                                            colour = "grey")) +
+                                            colour = "grey"),
+            legend.title=element_text(size=14),
+            legend.text=element_text(size=13)) +
       labs(x="Annual Appointments", y="Non-Opportunity Patient Costs") +
       geom_pointrange(position=position_dodge(width=0.20), size=1) +
       ggtitle("Non-Opportunity Patient Costs by Treatment Model - ART Co-op Study") +
